@@ -1,0 +1,2371 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "türkiye-i̇şçi-ve-çiftçi-fırkası",
+        "label": "Türkiye İşçi ve Çiftçi Fırkası",
+        "year": "1919",
+        "desc": "İstanbul'da Dr. Şefik Hüsnü ve arkadaşlarınca kuruldu.",
+        "period": "Erken Dönem (1919-1960)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Doğrudan TKP Kökenli",
+        "color": "#E63946",
+        "fullLabel": "Türkiye İşçi ve Çiftçi Fırkası\n(1919)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-komünist-partisi-tkp",
+        "label": "Türkiye Komünist Partisi (TKP)",
+        "year": "1920",
+        "desc": "Bakü'de Mustafa Suphi ve yoldaşları tarafından kuruldu.",
+        "period": "Erken Dönem (1919-1960)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Sol Hareketin Ortak Kökü (Tüm Sayfalar)",
+        "color": "#E63946",
+        "fullLabel": "Türkiye Komünist Partisi (TKP)\n(1920)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-halk-i̇ştirakiyûn-fırkası",
+        "label": "Türkiye Halk İştirakiyûn Fırkası",
+        "year": "1920",
+        "desc": "Anadolu'da kurulan ilk yasal komünist parti deneyimlerinden biri.",
+        "period": "Erken Dönem (1919-1960)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Doğrudan TKP Kökenli",
+        "color": "#E63946",
+        "fullLabel": "Türkiye Halk İştirakiyûn Fırkası\n(1920)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-sosyalist-emekçi-ve-köylü-partisi",
+        "label": "Türkiye Sosyalist Emekçi ve Köylü Partisi",
+        "year": "1946",
+        "desc": "TSEKP - Dr. Şefik Hüsnü önderliğinde yasal parti denemesi.",
+        "period": "Erken Dönem (1919-1960)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Doğrudan TKP Kökenli",
+        "color": "#E63946",
+        "fullLabel": "Türkiye Sosyalist Emekçi ve Köylü Partisi\n(1946)"
+      }
+    },
+    {
+      "data": {
+        "id": "vatan-partisi-1",
+        "label": "Vatan Partisi-1",
+        "year": "1954",
+        "desc": "Dr. Hikmet Kıvılcımlı tarafından kuruldu.",
+        "period": "Erken Dönem (1919-1960)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Kıvılcımlı Çizgisi",
+        "color": "#E63946",
+        "fullLabel": "Vatan Partisi-1\n(1954)"
+      }
+    },
+    {
+      "data": {
+        "id": "sosyalist-gençlik-örgütü",
+        "label": "Sosyalist Gençlik Örgütü",
+        "year": "1970",
+        "desc": "TKP gençlik örgütlenmesi.",
+        "period": "Kitleselleşme (1960-1980)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "TKP Gençlik",
+        "color": "#E63946",
+        "fullLabel": "Sosyalist Gençlik Örgütü\n(1970)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-sosyalist-i̇şçi-partisi-tsi̇p",
+        "label": "Türkiye Sosyalist İşçi Partisi (TSİP)",
+        "year": "1974",
+        "desc": "12 Mart sonrası kurulan ilk yasal sol parti.",
+        "period": "Kitleselleşme (1960-1980)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "12 Mart Sonrası Yasal Sol",
+        "color": "#E63946",
+        "fullLabel": "Türkiye Sosyalist İşçi Partisi (TSİP)\n(1974)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-komünist-partisi-birlik",
+        "label": "Türkiye Komünist Partisi (Birlik)",
+        "year": "1975",
+        "desc": "TKP içerisindeki muhalif/ayrışan kanat gelişimi.",
+        "period": "Kitleselleşme (1960-1980)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "TKP İçi Ayrışma",
+        "color": "#E63946",
+        "fullLabel": "Türkiye Komünist Partisi (Birlik)\n(1975)"
+      }
+    },
+    {
+      "data": {
+        "id": "vatan-partisi-2",
+        "label": "Vatan Partisi-2",
+        "year": "1975",
+        "desc": "Orhan Aksungur önderliğinde yeniden kurulan Vatan Partisi.",
+        "period": "Kitleselleşme (1960-1980)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Kıvılcımlı Çizgisi",
+        "color": "#E63946",
+        "fullLabel": "Vatan Partisi-2\n(1975)"
+      }
+    },
+    {
+      "data": {
+        "id": "sosyalist-vatan-partisi",
+        "label": "Sosyalist Vatan Partisi",
+        "year": "1979",
+        "desc": "Mehmet Özler önderliğinde Kıvılcımlı geleneğinin devamı.",
+        "period": "Kitleselleşme (1960-1980)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Kıvılcımlı Çizgisi",
+        "color": "#E63946",
+        "fullLabel": "Sosyalist Vatan Partisi\n(1979)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp---i̇şçinin-sesi",
+        "label": "TKP - İşçinin Sesi",
+        "year": "1979",
+        "desc": "R. Yürükoğlu muhalefeti önderliğindeki ayrışma.",
+        "period": "Kitleselleşme (1960-1980)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "TKP İçi Ayrışma",
+        "color": "#E63946",
+        "fullLabel": "TKP - İşçinin Sesi\n(1979)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp---devrimci-kanat",
+        "label": "TKP - Devrimci Kanat",
+        "year": "1980",
+        "desc": "TKP içindeki silahlı/radikal atılımı savunan ayrışma.",
+        "period": "Kitleselleşme (1960-1980)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "TKP İçi Ayrışma",
+        "color": "#E63946",
+        "fullLabel": "TKP - Devrimci Kanat\n(1980)"
+      }
+    },
+    {
+      "data": {
+        "id": "kurtuluş-yolu",
+        "label": "Kurtuluş Yolu",
+        "year": "1984",
+        "desc": "TKP-İşçinin Sesi çizgisinden kopan yayın çevresi.",
+        "period": "12 Eylül Sonrası (1980-1990)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "TKP-İS Kökenli",
+        "color": "#E63946",
+        "fullLabel": "Kurtuluş Yolu\n(1984)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-birleşik-komünist-partisi-tbkp",
+        "label": "Türkiye Birleşik Komünist Partisi (TBKP)",
+        "year": "1987",
+        "desc": "TKP ile TİP'in (Haydar Kutlu - Nihat Sargın) birleşmesi.",
+        "period": "12 Eylül Sonrası (1980-1990)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Ortak Birleşme: TKP + TİP (THKP-C/THKO Sayfaları)",
+        "color": "#E63946",
+        "fullLabel": "Türkiye Birleşik Komünist Partisi (TBKP)\n(1987)"
+      }
+    },
+    {
+      "data": {
+        "id": "16-haziran-hareketi",
+        "label": "16 Haziran Hareketi",
+        "year": "1988",
+        "desc": "Dr. Hikmet Kıvılcımlı yanlısı silahlı örgütlenme denemesi.",
+        "period": "12 Eylül Sonrası (1980-1990)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Kıvılcımlı Çizgisi",
+        "color": "#E63946",
+        "fullLabel": "16 Haziran Hareketi\n(1988)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp---kıvılcım",
+        "label": "TKP - Kıvılcım",
+        "year": "1989",
+        "desc": "Dr. Hikmet Kıvılcımlı tezlerini savunan yayın çevresi.",
+        "period": "12 Eylül Sonrası (1980-1990)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Kıvılcımlı Çizgisi",
+        "color": "#E63946",
+        "fullLabel": "TKP - Kıvılcım\n(1989)"
+      }
+    },
+    {
+      "data": {
+        "id": "10-eylül",
+        "label": "10 Eylül",
+        "year": "1989",
+        "desc": "TKP'nin tasfiyesine karşı TKP'yi yeniden toparlama amaçlı girişim.",
+        "period": "12 Eylül Sonrası (1980-1990)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "TKP İçi Muhalefet",
+        "color": "#E63946",
+        "fullLabel": "10 Eylül\n(1989)"
+      }
+    },
+    {
+      "data": {
+        "id": "sosyalist-birlik-partisi-sbp",
+        "label": "Sosyalist Birlik Partisi (SBP)",
+        "year": "1991",
+        "desc": "TBKP, TSİP ve TİP kökenli kadroların katıldığı parti.",
+        "period": "Legal Arayışlar (1990-2016)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Ortak Birleşme: TBKP + TİP + TSİP",
+        "color": "#E63946",
+        "fullLabel": "Sosyalist Birlik Partisi (SBP)\n(1991)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-devrim-partisi-tdp",
+        "label": "Türkiye Devrim Partisi (TDP)",
+        "year": "1992",
+        "desc": "TKP/B (Devrimci Kanat) çizgisinin yeni ismi.",
+        "period": "Legal Arayışlar (1990-2016)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "TKP-Devrimci Kanat Kökenli",
+        "color": "#E63946",
+        "fullLabel": "Türkiye Devrim Partisi (TDP)\n(1992)"
+      }
+    },
+    {
+      "data": {
+        "id": "ürün",
+        "label": "Ürün",
+        "year": "1996",
+        "desc": "12 Eylül öncesi Ürün dergisi geleneğini devam ettiren çevre.",
+        "period": "Legal Arayışlar (1990-2016)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Gelenek/Ürün Çizgisi",
+        "color": "#E63946",
+        "fullLabel": "Ürün\n(1996)"
+      }
+    },
+    {
+      "data": {
+        "id": "savaş-yolu",
+        "label": "Savaş Yolu",
+        "year": "2002",
+        "desc": "Ürün dergisi çevresinden ayrılanlarca kuruldu.",
+        "period": "Legal Arayışlar (1990-2016)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Ürün Kökenli",
+        "color": "#E63946",
+        "fullLabel": "Savaş Yolu\n(2002)"
+      }
+    },
+    {
+      "data": {
+        "id": "halkın-kurtuluş-partisi-hkp",
+        "label": "Halkın Kurtuluş Partisi (HKP)",
+        "year": "2005",
+        "desc": "Dr. Hikmet Kıvılcımlı geleneğini temsil eden yasal parti.",
+        "period": "Legal Arayışlar (1990-2016)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Kıvılcımlı Çizgisi Güncel",
+        "color": "#E63946",
+        "fullLabel": "Halkın Kurtuluş Partisi (HKP)\n(2005)"
+      }
+    },
+    {
+      "data": {
+        "id": "1920-tkp-toplumsal-kurtuluş-partisi",
+        "label": "1920 TKP (Toplumsal Kurtuluş Partisi)",
+        "year": "2012",
+        "desc": "Ürün çevresinin partileşmesiyle kurulan yapı.",
+        "period": "Legal Arayışlar (1990-2016)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Ürün Kökenli",
+        "color": "#E63946",
+        "fullLabel": "1920 TKP (Toplumsal Kurtuluş Partisi)\n(2012)"
+      }
+    },
+    {
+      "data": {
+        "id": "komünist-parti-kp",
+        "label": "Komünist Parti (KP)",
+        "year": "2014",
+        "desc": "TKP'deki 2014 ayrışması sonrası Kemal Okuyan kanadı.",
+        "period": "Legal Arayışlar (1990-2016)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "TKP 2014 Ayrışması",
+        "color": "#E63946",
+        "fullLabel": "Komünist Parti (KP)\n(2014)"
+      }
+    },
+    {
+      "data": {
+        "id": "halkın-komünist-partisi-htkp",
+        "label": "Halkın Komünist Partisi (HTKP)",
+        "year": "2014",
+        "desc": "TKP ayrışmasında Erkan Baş ve arkadaşlarınca kurulan parti.",
+        "period": "Legal Arayışlar (1990-2016)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "TKP 2014 Ayrışması -> TİP'e Dönüşüm",
+        "color": "#E63946",
+        "fullLabel": "Halkın Komünist Partisi (HTKP)\n(2014)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-komünist-hareketi-tkh",
+        "label": "Türkiye Komünist Hareketi (TKH)",
+        "year": "2015",
+        "desc": "HTKP ve KP süreçlerinden ayrılan kadrolarca kurulan parti.",
+        "period": "Legal Arayışlar (1990-2016)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Gelenek/TKP Ayrışması",
+        "color": "#E63946",
+        "fullLabel": "Türkiye Komünist Hareketi (TKH)\n(2015)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-i̇şçi-partisi-ti̇p",
+        "label": "Türkiye İşçi Partisi (TİP)",
+        "year": "2017",
+        "desc": "HTKP kökenli kadroların TİP adını yeniden partileştirmesi.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Çapraz Bağlantı: Emek ve Özgürlük İttifakı (THKO/TKP-ML Sayfaları)",
+        "color": "#E63946",
+        "fullLabel": "Türkiye İşçi Partisi (TİP)\n(2017)"
+      }
+    },
+    {
+      "data": {
+        "id": "toplumcu-kurtuluş-partisi",
+        "label": "Toplumcu Kurtuluş Partisi",
+        "year": "2020",
+        "desc": "1920 TKP'nin adını güncellemesi.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Ürün Kökenli",
+        "color": "#E63946",
+        "fullLabel": "Toplumcu Kurtuluş Partisi\n(2020)"
+      }
+    },
+    {
+      "data": {
+        "id": "sosyalist-güç-birliği-sgb",
+        "label": "Sosyalist Güç Birliği (SGB)",
+        "year": "2022",
+        "desc": "TKP, TKH, SOL Parti ve Devrim Hareketi seçme/eylem bloğu.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Ortak İttifak: TKP + TKH + THKP-C (SOL Parti/Devrim Hareketi)",
+        "color": "#E63946",
+        "fullLabel": "Sosyalist Güç Birliği (SGB)\n(2022)"
+      }
+    },
+    {
+      "data": {
+        "id": "ti̇p-ve-tkp-seçim-süreçleri",
+        "label": "TİP ve TKP Seçim Süreçleri",
+        "year": "2023",
+        "desc": "TİP'in TBMM'de 4 milletvekiliyle temsil edilmesi.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Yasal Sol Temsil",
+        "color": "#E63946",
+        "fullLabel": "TİP ve TKP Seçim Süreçleri\n(2023)"
+      }
+    },
+    {
+      "data": {
+        "id": "güncel-tkp,-ti̇p,-tkh-ve-hkp-faaliyetleri",
+        "label": "Güncel TKP, TİP, TKH ve HKP Faaliyetleri",
+        "year": "2024-2026",
+        "desc": "Gelenek ve Kıvılcımlı kökenli yapıların güncel mücadelesi.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "TKP ve Türevleri",
+        "crossLink": "Güncel Akım",
+        "color": "#E63946",
+        "fullLabel": "Güncel TKP, TİP, TKH ve HKP Faaliyetleri\n(2024-2026)"
+      }
+    },
+    {
+      "data": {
+        "id": "fikir-kulüpleri-federasyonu-fkf",
+        "label": "Fikir Kulüpleri Federasyonu (FKF)",
+        "year": "1965",
+        "desc": "Öğrenci gençliğin kitlesel örgütü.",
+        "period": "Erken ve Hazırlık Dönemi",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Ortak Kök: FKF/Dev-Genç (Tüm Sayfalar)",
+        "color": "#D62828",
+        "fullLabel": "Fikir Kulüpleri Federasyonu (FKF)\n(1965)"
+      }
+    },
+    {
+      "data": {
+        "id": "devrimci-gençlik-dev-genç",
+        "label": "Devrimci Gençlik (Dev-Genç)",
+        "year": "1969",
+        "desc": "Anti-emperyalist gençlik hareketinin merkezi.",
+        "period": "Erken ve Hazırlık Dönemi",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Ortak Kök: FKF/Dev-Genç (Tüm Sayfalar)",
+        "color": "#D62828",
+        "fullLabel": "Devrimci Gençlik (Dev-Genç)\n(1969)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-halk-kurtuluş-partisi-cephesi-thkp-c",
+        "label": "Türkiye Halk Kurtuluş Partisi-Cephesi (THKP-C)",
+        "year": "1971",
+        "desc": "Mahir Çayan ve arkadaşlarınca PASS stratejisiyle kuruldu.",
+        "period": "Silahlı Mücadele (1970-1972)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "1971 Üç Ana Damardan Biri",
+        "color": "#D62828",
+        "fullLabel": "Türkiye Halk Kurtuluş Partisi-Cephesi (THKP-C)\n(1971)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-marksist-leninist-partizan",
+        "label": "THKP-C Marksist Leninist (Partizan)",
+        "year": "1971",
+        "desc": "THKP-C içindeki ilk ayrışma hatlarından biri.",
+        "period": "Silahlı Mücadele (1970-1972)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "THKP-C İçi Ayrışma",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Marksist Leninist (Partizan)\n(1971)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-acilciler",
+        "label": "THKP-C Acilciler",
+        "year": "1973",
+        "desc": "Mihri Belli ve Engin Erkiner çevresi.",
+        "period": "12 Mart Sonrası Yeniden Yapılanma",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "THKP-C İçi Kopuş",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Acilciler\n(1973)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-mlspb",
+        "label": "THKP-C MLSPB",
+        "year": "1975",
+        "desc": "Kentsel gerilla hattını sürdüren radikal kanat.",
+        "period": "12 Mart Sonrası Yeniden Yapılanma",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "THKP-C İçi Kopuş",
+        "color": "#D62828",
+        "fullLabel": "THKP-C MLSPB\n(1975)"
+      }
+    },
+    {
+      "data": {
+        "id": "devrimci-gençlik-dernekleri-federasyonu-dgdf",
+        "label": "Devrimci Gençlik Dernekleri Federasyonu (DGDF)",
+        "year": "1976",
+        "desc": "Dev-Genç geleneğinin kitlesel dernekleşme süreci.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "THKP-C Kitlesel Gençlik",
+        "color": "#D62828",
+        "fullLabel": "Devrimci Gençlik Dernekleri Federasyonu (DGDF)\n(1976)"
+      }
+    },
+    {
+      "data": {
+        "id": "kurtuluş",
+        "label": "Kurtuluş",
+        "year": "1976",
+        "desc": "İşçi sınıfı odağını ve 'Kurtuluş' dergisini öne çıkaran hat.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "THKP-C Ana Damarlarından Biri",
+        "color": "#D62828",
+        "fullLabel": "Kurtuluş\n(1976)"
+      }
+    },
+    {
+      "data": {
+        "id": "devrimci-yol-dev-yol",
+        "label": "Devrimci Yol (Dev-Yol)",
+        "year": "1977",
+        "desc": "Oğuzhan Müftüoğlu vb.; THKP-C kökenli en kitlesel hareket.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "THKP-C En Kitlesel Damarı",
+        "color": "#D62828",
+        "fullLabel": "Devrimci Yol (Dev-Yol)\n(1977)"
+      }
+    },
+    {
+      "data": {
+        "id": "tekoşin",
+        "label": "Tekoşin",
+        "year": "1977",
+        "desc": "Kurtuluş hareketinden ayrılan Doğu/Kürdistan odaklı sol grup.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Kurtuluş Ayrışması",
+        "color": "#D62828",
+        "fullLabel": "Tekoşin\n(1977)"
+      }
+    },
+    {
+      "data": {
+        "id": "devrimci-sol-dev-sol",
+        "label": "Devrimci Sol (Dev-Sol)",
+        "year": "1978",
+        "desc": "Dursun Karataş liderliğinde Dev-Yol'dan ayrılan hat.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Dev-Yol Ayrışması",
+        "color": "#D62828",
+        "fullLabel": "Devrimci Sol (Dev-Sol)\n(1978)"
+      }
+    },
+    {
+      "data": {
+        "id": "kasabalılar",
+        "label": "Kasabalılar",
+        "year": "1978",
+        "desc": "THKP-C kökenli yerel/bölgesel ayrışma grubu.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Yerel Ayrışma",
+        "color": "#D62828",
+        "fullLabel": "Kasabalılar\n(1978)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-üçüncü-yol",
+        "label": "THKP-C Üçüncü Yol",
+        "year": "1978",
+        "desc": "Dev-Yol ve Dev-Sol dışında kalan bağımsız yayın çevresi.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Yayın Çevresi",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Üçüncü Yol\n(1978)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-çayan-sempatizanları",
+        "label": "THKP-C Çayan Sempatizanları",
+        "year": "1979",
+        "desc": "Mahir Çayan çizgisine sadakat vurgusu yapan grup.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Grup",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Çayan Sempatizanları\n(1979)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-cephe-yolu",
+        "label": "THKP-C Cephe Yolu",
+        "year": "1979",
+        "desc": "THKP-C ilkelerine vurgu yapan yayın organı.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Yayın Çevresi",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Cephe Yolu\n(1979)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-devrimci-koordinasyon-birliği",
+        "label": "THKP-C Devrimci Koordinasyon Birliği",
+        "year": "1979",
+        "desc": "THKP-C kökenli grupların koordinasyon arayışı.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Koordinasyon Arayışı",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Devrimci Koordinasyon Birliği\n(1979)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-devrimci-savaş",
+        "label": "THKP-C Devrimci Savaş",
+        "year": "1976",
+        "desc": "Silahlı eylemleri öne çıkaran fraksiyon.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Fraksiyon",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Devrimci Savaş\n(1976)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-eylem-birliği",
+        "label": "THKP-C Eylem Birliği",
+        "year": "1976",
+        "desc": "Kentsel eylemsellik odaklı grup.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Fraksiyon",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Eylem Birliği\n(1976)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-halkın-devrimci-öncüleri",
+        "label": "THKP-C Halkın Devrimci Öncüleri",
+        "year": "1979",
+        "desc": "THKP-C mirasçısı ayrışma grubu.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Fraksiyon",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Halkın Devrimci Öncüleri\n(1979)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-türkiye-kızıl-muhafızları-ordusu",
+        "label": "THKP-C Türkiye Kızıl Muhafızları Ordusu",
+        "year": "1979",
+        "desc": "Radikal kır/şehir hücresi denemesi.",
+        "period": "Kitlesel Mücadele (1974-1980)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Fraksiyon",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Türkiye Kızıl Muhafızları Ordusu\n(1979)"
+      }
+    },
+    {
+      "data": {
+        "id": "ana-gerilla-birliği",
+        "label": "Ana Gerilla Birliği",
+        "year": "1982",
+        "desc": "12 Eylül sonrası Dev-Yol gerillalarının dağdaki direniş birliği.",
+        "period": "12 Eylül Sonrası (1980-1990)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Dev-Yol Askeri Kanat",
+        "color": "#D62828",
+        "fullLabel": "Ana Gerilla Birliği\n(1982)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-kuzey-kürdistan-kurtuluş-örgütü-tkkö",
+        "label": "Türkiye-Kuzey Kürdistan Kurtuluş Örgütü (TKKÖ)",
+        "year": "1983",
+        "desc": "Kurtuluş geleneğinin bölgesel örgütlenmesi.",
+        "period": "12 Eylül Sonrası (1980-1990)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Kurtuluş Bölgesel Örgütlenme",
+        "color": "#D62828",
+        "fullLabel": "Türkiye-Kuzey Kürdistan Kurtuluş Örgütü (TKKÖ)\n(1983)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-devrimci-sol-dursun-karataş",
+        "label": "THKP-C Devrimci Sol (Dursun Karataş)",
+        "year": "1993",
+        "desc": "Dev-Sol içindeki Karataş kanadı.",
+        "period": "1990'lar ve Ayrışmalar",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Dev-Sol Bölünmesi",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Devrimci Sol (Dursun Karataş)\n(1993)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-devrimci-sol-bedri-yağan",
+        "label": "THKP-C Devrimci Sol (Bedri Yağan)",
+        "year": "1993",
+        "desc": "Dev-Sol içindeki Bedri Yağan kanadı.",
+        "period": "1990'lar ve Ayrışmalar",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Dev-Sol Bölünmesi",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Devrimci Sol (Bedri Yağan)\n(1993)"
+      }
+    },
+    {
+      "data": {
+        "id": "thkp-c-devrimci-sol-yeniden-yapılanma",
+        "label": "THKP-C Devrimci Sol (Yeniden Yapılanma)",
+        "year": "1994",
+        "desc": "Dev-Sol içi grupların toparlanma süreçleri.",
+        "period": "1990'lar ve Ayrışmalar",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Toparlanma Girişimi",
+        "color": "#D62828",
+        "fullLabel": "THKP-C Devrimci Sol (Yeniden Yapılanma)\n(1994)"
+      }
+    },
+    {
+      "data": {
+        "id": "devrimci-halk-kurtuluş-partisi-cephesi-dhkp-c",
+        "label": "Devrimci Halk Kurtuluş Partisi-Cephesi (DHKP-C)",
+        "year": "1994",
+        "desc": "Dursun Karataş önderliğinde Dev-Sol'un partileşmesi.",
+        "period": "1990'lar ve Ayrışmalar",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Dev-Sol Partileşmesi",
+        "color": "#D62828",
+        "fullLabel": "Devrimci Halk Kurtuluş Partisi-Cephesi (DHKP-C)\n(1994)"
+      }
+    },
+    {
+      "data": {
+        "id": "özgürlük-ve-dayanışma-partisi-ödp",
+        "label": "Özgürlük ve Dayanışma Partisi (ÖDP)",
+        "year": "1996",
+        "desc": "Dev-Yol, Kurtuluş, BSP ve geniş sol çevrelerin birleşimi.",
+        "period": "2000'ler ve Legal Partileşme",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Çapraz Birleşme: THKP-C (Dev-Yol/Kurtuluş) + THKO (TKEP/Teslim Töre) + TKP Çevreleri",
+        "color": "#D62828",
+        "fullLabel": "Özgürlük ve Dayanışma Partisi (ÖDP)\n(1996)"
+      }
+    },
+    {
+      "data": {
+        "id": "devrimci-hareket",
+        "label": "Devrimci Hareket",
+        "year": "2000",
+        "desc": "Dev-Yol kadrolarının dergi etrafındaki örgütlenmesi.",
+        "period": "2000'ler ve Legal Partileşme",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Dev-Yol Çizgisi",
+        "color": "#D62828",
+        "fullLabel": "Devrimci Hareket\n(2000)"
+      }
+    },
+    {
+      "data": {
+        "id": "emekçi-hareketi-partisi-ehp",
+        "label": "Emekçi Hareketi Partisi (EHP)",
+        "year": "2004",
+        "desc": "Kurtuluş geleneğinden gelen kadroların partileşmesi.",
+        "period": "2000'ler ve Legal Partileşme",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Kurtuluş Geleneği",
+        "color": "#D62828",
+        "fullLabel": "Emekçi Hareketi Partisi (EHP)\n(2004)"
+      }
+    },
+    {
+      "data": {
+        "id": "yeniden-devrim",
+        "label": "Yeniden Devrim",
+        "year": "2006",
+        "desc": "Devrimci Yol çizgisinde yayın yapan çevre.",
+        "period": "2000'ler ve Legal Partileşme",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Dev-Yol Çizgisi",
+        "color": "#D62828",
+        "fullLabel": "Yeniden Devrim\n(2006)"
+      }
+    },
+    {
+      "data": {
+        "id": "sol-parti",
+        "label": "SOL Parti",
+        "year": "2019",
+        "desc": "ÖDP'nin isim ve yapı değiştirerek SOL Parti olması.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Dev-Yol Yasal Kanalı",
+        "color": "#D62828",
+        "fullLabel": "SOL Parti\n(2019)"
+      }
+    },
+    {
+      "data": {
+        "id": "devrimci-hareket---sosyalist-güç-birliği",
+        "label": "Devrimci Hareket - Sosyalist Güç Birliği",
+        "year": "2021",
+        "desc": "Devrimci Hareket'in SOL Parti ve TKP ile ittifakı.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Ortak İttifak: THKP-C (SOL Parti/Devrim Hareketi) + TKP (SGB)",
+        "color": "#D62828",
+        "fullLabel": "Devrimci Hareket - Sosyalist Güç Birliği\n(2021)"
+      }
+    },
+    {
+      "data": {
+        "id": "ehp-ve-emek-ve-özgürlük-i̇ttifakı",
+        "label": "EHP ve Emek ve Özgürlük İttifakı",
+        "year": "2022",
+        "desc": "EHP'nin TİP, EMEP ve DEM Parti ile ittifak kurması.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Ortak İttifak: THKP-C (EHP) + THKO (EMEP) + TKP/TİP + DEM Parti",
+        "color": "#D62828",
+        "fullLabel": "EHP ve Emek ve Özgürlük İttifakı\n(2022)"
+      }
+    },
+    {
+      "data": {
+        "id": "güncel-sol-parti,-ehp-ve-dhkp-c-çizgisi",
+        "label": "Güncel SOL Parti, EHP ve DHKP-C Çizgisi",
+        "year": "2024-2026",
+        "desc": "THKP-C kökenli yasal partilerin güncel faaliyetleri.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "THKP-C ve Türevleri",
+        "crossLink": "Güncel Akım",
+        "color": "#D62828",
+        "fullLabel": "Güncel SOL Parti, EHP ve DHKP-C Çizgisi\n(2024-2026)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-halk-kurtuluş-ordusu-thko",
+        "label": "Türkiye Halk Kurtuluş Ordusu (THKO)",
+        "year": "1970",
+        "desc": "Deniz Gezmiş, Hüseyin İnan, Yusuf Aslan tarafından kuruldu.",
+        "period": "Silahlı Mücadele (1970-1972)",
+        "group": "THKO ve Türevleri",
+        "crossLink": "1971 Üç Ana Damardan Biri",
+        "color": "#F77F00",
+        "fullLabel": "Türkiye Halk Kurtuluş Ordusu (THKO)\n(1970)"
+      }
+    },
+    {
+      "data": {
+        "id": "thko-geçici-merkez-komitesi-gmk",
+        "label": "THKO Geçici Merkez Komitesi (GMK)",
+        "year": "1974",
+        "desc": "Cezaevinden çıkan kadroların THKO'yu yeniden yapılandırması.",
+        "period": "12 Mart Sonrası Toparlanma",
+        "group": "THKO ve Türevleri",
+        "crossLink": "THKO Toparlanma",
+        "color": "#F77F00",
+        "fullLabel": "THKO Geçici Merkez Komitesi (GMK)\n(1974)"
+      }
+    },
+    {
+      "data": {
+        "id": "thko-mücadelede-birlik-emeğin-birliği",
+        "label": "THKO Mücadelede Birlik (Emeğin Birliği)",
+        "year": "1975",
+        "desc": "THKO içinde Çin/Arnavutluk çizgisine yönelen kanat.",
+        "period": "Ideolojik Dönüşüm (1975-1980)",
+        "group": "THKO ve Türevleri",
+        "crossLink": "THKO İçi Dönüşüm",
+        "color": "#F77F00",
+        "fullLabel": "THKO Mücadelede Birlik (Emeğin Birliği)\n(1975)"
+      }
+    },
+    {
+      "data": {
+        "id": "halkın-kurtuluşu",
+        "label": "Halkın Kurtuluşu",
+        "year": "1976",
+        "desc": "THKO'nun kitlesel yasal yayın organı ve harekete verilen genel isim.",
+        "period": "Ideolojik Dönüşüm (1975-1980)",
+        "group": "THKO ve Türevleri",
+        "crossLink": "THKO Kitlesel Gövdesi",
+        "color": "#F77F00",
+        "fullLabel": "Halkın Kurtuluşu\n(1976)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-devriminin-yolu-tdy",
+        "label": "Türkiye Devriminin Yolu (TDY)",
+        "year": "1976",
+        "desc": "THKO GMK'dan ayrılan askeri hat yanlısı grup.",
+        "period": "Ideolojik Dönüşüm (1975-1980)",
+        "group": "THKO ve Türevleri",
+        "crossLink": "THKO Ayrışması",
+        "color": "#F77F00",
+        "fullLabel": "Türkiye Devriminin Yolu (TDY)\n(1976)"
+      }
+    },
+    {
+      "data": {
+        "id": "thko---diriliş",
+        "label": "THKO - Diriliş",
+        "year": "1977",
+        "desc": "THKO'nun ilk dönem gerilla çizgisini ihya etmek isteyen grup.",
+        "period": "Ideolojik Dönüşüm (1975-1980)",
+        "group": "THKO ve Türevleri",
+        "crossLink": "THKO Ayrışması",
+        "color": "#F77F00",
+        "fullLabel": "THKO - Diriliş\n(1977)"
+      }
+    },
+    {
+      "data": {
+        "id": "thko---emeğin-kurtuluşu-yolunda-işık",
+        "label": "THKO - Emeğin Kurtuluşu Yolunda Işık",
+        "year": "1977",
+        "desc": "THKO içi yayın ve örgütlenme çevresi.",
+        "period": "Ideolojik Dönüşüm (1975-1980)",
+        "group": "THKO ve Türevleri",
+        "crossLink": "Yayın Çevresi",
+        "color": "#F77F00",
+        "fullLabel": "THKO - Emeğin Kurtuluşu Yolunda Işık\n(1977)"
+      }
+    },
+    {
+      "data": {
+        "id": "thko---devrimci-proletarya",
+        "label": "THKO - Devrimci Proletarya",
+        "year": "1977",
+        "desc": "Sonrasında TİKB adını alacak radikal kopuş.",
+        "period": "Ideolojik Dönüşüm (1975-1980)",
+        "group": "THKO ve Türevleri",
+        "crossLink": "TİKB'ye Dönüşüm",
+        "color": "#F77F00",
+        "fullLabel": "THKO - Devrimci Proletarya\n(1977)"
+      }
+    },
+    {
+      "data": {
+        "id": "tdkp---i̇nşa-örgütü",
+        "label": "TDKP - İnşa Örgütü",
+        "year": "1978",
+        "desc": "Halkın Kurtuluşu'nun parti kurma sürecindeki yapısı.",
+        "period": "Partileşme Süreci",
+        "group": "THKO ve Türevleri",
+        "crossLink": "Halkın Kurtuluşu Partileşmesi",
+        "color": "#F77F00",
+        "fullLabel": "TDKP - İnşa Örgütü\n(1978)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-devrimci-komünist-partisi-tdkp",
+        "label": "Türkiye Devrimci Komünist Partisi (TDKP)",
+        "year": "1980",
+        "desc": "Halkın Kurtuluşu geleneğinin yasa dışı partisi.",
+        "period": "Partileşme Süreci",
+        "group": "THKO ve Türevleri",
+        "crossLink": "Halkın Kurtuluşu Ana Partisi",
+        "color": "#F77F00",
+        "fullLabel": "Türkiye Devrimci Komünist Partisi (TDKP)\n(1980)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-komünist-emek-partisi-tkep",
+        "label": "Türkiye Komünist Emek Partisi (TKEP)",
+        "year": "1980",
+        "desc": "Teslim Töre önderliğinde THKO/Emeğin Birliği kökenli parti.",
+        "period": "Partileşme Süreci",
+        "group": "THKO ve Türevleri",
+        "crossLink": "THKO Emeğin Birliği Partileşmesi (ÖDP'ye ve Birleşmelere Katıldı)",
+        "color": "#F77F00",
+        "fullLabel": "Türkiye Komünist Emek Partisi (TKEP)\n(1980)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-i̇htilalci-komünistler-birliği-ti̇kb",
+        "label": "Türkiye İhtilalci Komünistler Birliği (TİKB)",
+        "year": "1980",
+        "desc": "THKO kökenli, askeri/ihtilalci hatta bağlı kalan grup.",
+        "period": "Partileşme Süreci",
+        "group": "THKO ve Türevleri",
+        "crossLink": "THKO İhtilalci Kanat",
+        "color": "#F77F00",
+        "fullLabel": "Türkiye İhtilalci Komünistler Birliği (TİKB)\n(1980)"
+      }
+    },
+    {
+      "data": {
+        "id": "tdkp---sosyalist-birlik",
+        "label": "TDKP - Sosyalist Birlik",
+        "year": "1987",
+        "desc": "TDKP'den ayrılan muhalif grup.",
+        "period": "12 Eylül Sonrası ve 90'lar",
+        "group": "THKO ve Türevleri",
+        "crossLink": "TDKP Ayrışması",
+        "color": "#F77F00",
+        "fullLabel": "TDKP - Sosyalist Birlik\n(1987)"
+      }
+    },
+    {
+      "data": {
+        "id": "ekim",
+        "label": "Ekim",
+        "year": "1988",
+        "desc": "TDKP'den ayrılan ve daha sonra TKİP adını alan çevre.",
+        "period": "12 Eylül Sonrası ve 90'lar",
+        "group": "THKO ve Türevleri",
+        "crossLink": "TDKP Ayrışması -> TKİP",
+        "color": "#F77F00",
+        "fullLabel": "Ekim\n(1988)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-devrimci-komünist-i̇şçi-hareketi-tdki̇h",
+        "label": "Türkiye Devrimci Komünist İşçi Hareketi (TDKİH)",
+        "year": "1989",
+        "desc": "TDKP kökenli ayrışma.",
+        "period": "12 Eylül Sonrası ve 90'lar",
+        "group": "THKO ve Türevleri",
+        "crossLink": "TDKP Ayrışması",
+        "color": "#F77F00",
+        "fullLabel": "Türkiye Devrimci Komünist İşçi Hareketi (TDKİH)\n(1989)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkep---leninist",
+        "label": "TKEP - Leninist",
+        "year": "1990",
+        "desc": "TKEP içindeki silahlı/ihtilalci kanadın ayrılması.",
+        "period": "12 Eylül Sonrası ve 90'lar",
+        "group": "THKO ve Türevleri",
+        "crossLink": "TKEP Bölünmesi",
+        "color": "#F77F00",
+        "fullLabel": "TKEP - Leninist\n(1990)"
+      }
+    },
+    {
+      "data": {
+        "id": "marksist-leninist-komünist-parti-mlkp",
+        "label": "Marksist Leninist Komünist Parti (MLKP)",
+        "year": "1994",
+        "desc": "TKEP-Leninist, TKP-ML Hareketi ve İKOP birleşimi.",
+        "period": "Legal Parti Dönemi",
+        "group": "THKO ve Türevleri",
+        "crossLink": "Çapraz Birleşme: THKO (TKEP-L) + TKP-ML (Hareketi/Halkın Birliği)",
+        "color": "#F77F00",
+        "fullLabel": "Marksist Leninist Komünist Parti (MLKP)\n(1994)"
+      }
+    },
+    {
+      "data": {
+        "id": "emek-partisi-emep",
+        "label": "Emek Partisi (EMEP)",
+        "year": "1996",
+        "desc": "TDKP geleneğinin kurduğu ilk yasal parti.",
+        "period": "Legal Parti Dönemi",
+        "group": "THKO ve Türevleri",
+        "crossLink": "TDKP Yasal Kanalı",
+        "color": "#F77F00",
+        "fullLabel": "Emek Partisi (EMEP)\n(1996)"
+      }
+    },
+    {
+      "data": {
+        "id": "emeğin-partisi-emep",
+        "label": "Emeğin Partisi (EMEP)",
+        "year": "1997",
+        "desc": "Kapatılan Emek Partisi yerine kurulan yasal parti.",
+        "period": "Legal Parti Dönemi",
+        "group": "THKO ve Türevleri",
+        "crossLink": "TDKP Yasal Kanalı",
+        "color": "#F77F00",
+        "fullLabel": "Emeğin Partisi (EMEP)\n(1997)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-komünist-i̇htilalciler-birliği-tki̇b",
+        "label": "Türkiye Komünist İhtilalciler Birliği (TKİB)",
+        "year": "1998",
+        "desc": "TİKB kökenli yapıların yeniden yapılanması.",
+        "period": "Legal Parti Dönemi",
+        "group": "THKO ve Türevleri",
+        "crossLink": "TİKB Geleneği",
+        "color": "#F77F00",
+        "fullLabel": "Türkiye Komünist İhtilalciler Birliği (TKİB)\n(1998)"
+      }
+    },
+    {
+      "data": {
+        "id": "devrimci-halk-hareketi",
+        "label": "Devrimci Halk Hareketi",
+        "year": "1999",
+        "desc": "TKİB'den ayrılan çevre.",
+        "period": "Legal Parti Dönemi",
+        "group": "THKO ve Türevleri",
+        "crossLink": "TKİB Ayrışması",
+        "color": "#F77F00",
+        "fullLabel": "Devrimci Halk Hareketi\n(1999)"
+      }
+    },
+    {
+      "data": {
+        "id": "tki̇b---bolşevik",
+        "label": "TKİB - Bolşevik",
+        "year": "1999",
+        "desc": "TKİB içindeki ideolojik ayrışma.",
+        "period": "Legal Parti Dönemi",
+        "group": "THKO ve Türevleri",
+        "crossLink": "TKİB Ayrışması",
+        "color": "#F77F00",
+        "fullLabel": "TKİB - Bolşevik\n(1999)"
+      }
+    },
+    {
+      "data": {
+        "id": "emep-ve-emek-ve-özgürlük-i̇ttifakı",
+        "label": "EMEP ve Emek ve Özgürlük İttifakı",
+        "year": "2022",
+        "desc": "EMEP'in TİP, HDP/DEM Parti ve EHP ile ittifak kurması.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "THKO ve Türevleri",
+        "crossLink": "Ortak İttifak: THKO (EMEP) + THKP-C (EHP) + TKP/TİP + DEM Parti",
+        "color": "#F77F00",
+        "fullLabel": "EMEP ve Emek ve Özgürlük İttifakı\n(2022)"
+      }
+    },
+    {
+      "data": {
+        "id": "emepin-tbmm-mebusluğu-ve-seçim-süreci",
+        "label": "EMEP'in TBMM Mebusluğu ve Seçim Süreci",
+        "year": "2023",
+        "desc": "EMEP'in TBMM'ye 2 milletvekili sokması.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "THKO ve Türevleri",
+        "crossLink": "Yasal Sol Temsil",
+        "color": "#F77F00",
+        "fullLabel": "EMEP'in TBMM Mebusluğu ve Seçim Süreci\n(2023)"
+      }
+    },
+    {
+      "data": {
+        "id": "güncel-emep,-tki̇p-ve-ti̇kb-durumu",
+        "label": "Güncel EMEP, TKİP ve TİKB Durumu",
+        "year": "2024-2026",
+        "desc": "TDKP/EMEP geleneğinin güncel mücadelesi.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "THKO ve Türevleri",
+        "crossLink": "Güncel Akım",
+        "color": "#F77F00",
+        "fullLabel": "Güncel EMEP, TKİP ve TİKB Durumu\n(2024-2026)"
+      }
+    },
+    {
+      "data": {
+        "id": "proleter-devrimci-aydınlık-pda",
+        "label": "Proleter Devrimci Aydınlık (PDA)",
+        "year": "1970",
+        "desc": "Doğu Perinçek ve Şahin Alpay çevresi (Aydınlık dergisi).",
+        "period": "Erken Dönem",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "Maoist/Milli Demokratik Devrim Çizgisi",
+        "color": "#003049",
+        "fullLabel": "Proleter Devrimci Aydınlık (PDA)\n(1970)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-i̇htilalci-i̇şçi-ve-köylü-partisi-ti̇i̇kp",
+        "label": "Türkiye İhtilalci İşçi ve Köylü Partisi (TİİKP)",
+        "year": "1971",
+        "desc": "Maoist çizgedeki yasa dışı ilk parti.",
+        "period": "Erken Dönem",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "TİİKP/Aydınlık Geleneği",
+        "color": "#003049",
+        "fullLabel": "Türkiye İhtilalci İşçi ve Köylü Partisi (TİİKP)\n(1971)"
+      }
+    },
+    {
+      "data": {
+        "id": "türkiye-komünist-partisi---marksist-leninist-tkp-ml",
+        "label": "Türkiye Komünist Partisi / Marksist Leninist (TKP-ML)",
+        "year": "1972",
+        "desc": "İbrahim Kaypakkaya'nın TİİKP'den ayrılıp Halk Savaşı stratejisiyle kurduğu parti.",
+        "period": "Kurulus ve Silahlı Mücadele",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "1971 Üç Ana Damardan Biri",
+        "color": "#003049",
+        "fullLabel": "Türkiye Komünist Partisi / Marksist Leninist (TKP-ML)\n(1972)"
+      }
+    },
+    {
+      "data": {
+        "id": "halkın-birliği-tkp-ml-hareketi",
+        "label": "Halkın Birliği (TKP-ML Hareketi)",
+        "year": "1976",
+        "desc": "TKP-ML Hareketi adını alacak yasal yayın organı ve çevre.",
+        "period": "12 Mart Sonrası Yeniden Yapılanma",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "TKP-ML İçi Ayrışma -> MLKP'ye Katıldı",
+        "color": "#003049",
+        "fullLabel": "Halkın Birliği (TKP-ML Hareketi)\n(1976)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp-ml-1.-konferansı",
+        "label": "TKP-ML 1. Konferansı",
+        "year": "1978",
+        "desc": "Kaypakkaya sonrası merkezi yapının yeniden sağlanması.",
+        "period": "12 Mart Sonrası Yeniden Yapılanma",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "TKP-ML Ana Gövde",
+        "color": "#003049",
+        "fullLabel": "TKP-ML 1. Konferansı\n(1978)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp-ml-2.-konferansı",
+        "label": "TKP-ML 2. Konferansı",
+        "year": "1981",
+        "desc": "Örgütün 2. Konferans süreci.",
+        "period": "12 Eylül Sonrası ve Bölünmeler",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "TKP-ML Ana Gövde",
+        "color": "#003049",
+        "fullLabel": "TKP-ML 2. Konferansı\n(1981)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp-ml-bolşevik-partizan",
+        "label": "TKP-ML Bolşevik Partizan",
+        "year": "1981",
+        "desc": "TKP-ML'den ayrılan ideolojik fraksiyon.",
+        "period": "12 Eylül Sonrası ve Bölünmeler",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "TKP-ML Ayrışması",
+        "color": "#003049",
+        "fullLabel": "TKP-ML Bolşevik Partizan\n(1981)"
+      }
+    },
+    {
+      "data": {
+        "id": "spartaküs",
+        "label": "Spartaküs",
+        "year": "1983",
+        "desc": "Bolşevik Partizan'dan ayrılan grup.",
+        "period": "12 Eylül Sonrası ve Bölünmeler",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "Bolşevik Partizan Ayrışması",
+        "color": "#003049",
+        "fullLabel": "Spartaküs\n(1983)"
+      }
+    },
+    {
+      "data": {
+        "id": "mücadele-bayrağı",
+        "label": "Mücadele Bayrağı",
+        "year": "1987",
+        "desc": "Bolşevik Partizan geleneğinden kopan dergi çevresi.",
+        "period": "12 Eylül Sonrası ve Bölünmeler",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "Bolşevik Partizan Ayrışması",
+        "color": "#003049",
+        "fullLabel": "Mücadele Bayrağı\n(1987)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp-ml-maoist-parti-merkezi-mpm",
+        "label": "TKP-ML Maoist Parti Merkezi (MPM)",
+        "year": "1987",
+        "desc": "Akademisyenler/Aydınlar kanadının ayrışması.",
+        "period": "12 Eylül Sonrası ve Bölünmeler",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "TKP-ML Ayrışması",
+        "color": "#003049",
+        "fullLabel": "TKP-ML Maoist Parti Merkezi (MPM)\n(1987)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp-ml-i̇kiye-bölündü:-dabk-ve-konferansçılar",
+        "label": "TKP-ML İkiye Bölündü: DABK ve Konferansçılar",
+        "year": "1987",
+        "desc": "DABK ile Genel Merkez ayrışması.",
+        "period": "12 Eylül Sonrası ve Bölünmeler",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "TKP-ML İçi Bölünme",
+        "color": "#003049",
+        "fullLabel": "TKP-ML İkiye Bölündü: DABK ve Konferansçılar\n(1987)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp-ml-birleşmesi-dabk-ve-konferans",
+        "label": "TKP-ML Birleşmesi (DABK ve Konferans)",
+        "year": "1992",
+        "desc": "İki kanadın yeniden birleşme süreci.",
+        "period": "1990'lar ve Yeni Yapılanmalar",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "Birleşme",
+        "color": "#003049",
+        "fullLabel": "TKP-ML Birleşmesi (DABK ve Konferans)\n(1992)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp-ml-yeniden-bölündü-tkpml-ve-tkp-ml",
+        "label": "TKP-ML Yeniden Bölündü (TKP(ML) ve TKP-ML)",
+        "year": "1994",
+        "desc": "Yeniden iki ana fraksiyona ayrışma.",
+        "period": "1990'lar ve Yeni Yapılanmalar",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "TKP-ML İçi Bölünme",
+        "color": "#003049",
+        "fullLabel": "TKP-ML Yeniden Bölündü (TKP(ML) ve TKP-ML)\n(1994)"
+      }
+    },
+    {
+      "data": {
+        "id": "bolşevik-partizan-->-bolşevik-parti-kk-t",
+        "label": "Bolşevik Partizan -> Bolşevik Parti (KK-T)",
+        "year": "1994",
+        "desc": "Bolşevik Partizan'ın partileşmesi.",
+        "period": "1990'lar ve Yeni Yapılanmalar",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "Bolşevik Partizan Partileşmesi",
+        "color": "#003049",
+        "fullLabel": "Bolşevik Partizan -> Bolşevik Parti (KK-T)\n(1994)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp-ml-geçici-örgütlenme-komitesi-gök",
+        "label": "TKP-ML Geçici Örgütlenme Komitesi (GÖK)",
+        "year": "1995",
+        "desc": "Ayrılan bir diğer iç grup.",
+        "period": "1990'lar ve Yeni Yapılanmalar",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "TKP-ML Ayrışması",
+        "color": "#003049",
+        "fullLabel": "TKP-ML Geçici Örgütlenme Komitesi (GÖK)\n(1995)"
+      }
+    },
+    {
+      "data": {
+        "id": "maoist-komünist-parti-mkp",
+        "label": "Maoist Komünist Parti (MKP)",
+        "year": "2002",
+        "desc": "TKP(ML) kanadının adını Maoist Komünist Parti yapması.",
+        "period": "2000'ler",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "TKP-ML Kökenli Parti",
+        "color": "#003049",
+        "fullLabel": "Maoist Komünist Parti (MKP)\n(2002)"
+      }
+    },
+    {
+      "data": {
+        "id": "mkp-17-merkez-kadrosunun-kaybı",
+        "label": "MKP 17 Merkez Kadrosunun Kaybı",
+        "year": "2005",
+        "desc": "Ovacık/Kandil bölgesinde kayıplar.",
+        "period": "2000'ler",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "MKP Süreci",
+        "color": "#003049",
+        "fullLabel": "MKP 17 Merkez Kadrosunun Kaybı\n(2005)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp-ml,-mkp,-bolşevik-parti-faal-durumu",
+        "label": "TKP-ML, MKP, Bolşevik Parti Faal Durumu",
+        "year": "2010",
+        "desc": "Fraksiyonların güncel durum özeti.",
+        "period": "2010'lar",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "Maoist Çizgi Durumu",
+        "color": "#003049",
+        "fullLabel": "TKP-ML, MKP, Bolşevik Parti Faal Durumu\n(2010)"
+      }
+    },
+    {
+      "data": {
+        "id": "tkp-ml-i̇çi-çatışma-ve-bölünme",
+        "label": "TKP-ML İçi Çatışma ve Bölünme",
+        "year": "2017",
+        "desc": "MK ile Örgütlenme Komitesi arasındaki çatışmalı bölünme.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "TKP-ML İçi Bölünme",
+        "color": "#003049",
+        "fullLabel": "TKP-ML İçi Çatışma ve Bölünme\n(2017)"
+      }
+    },
+    {
+      "data": {
+        "id": "sosyalist-meclisler-federasyonu-smf",
+        "label": "Sosyalist Meclisler Federasyonu (SMF)",
+        "year": "2018",
+        "desc": "MKP geleneğinin yasal kitlesel örgütü olarak kurulması.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "MKP Yasal Kitle Örgütü",
+        "color": "#003049",
+        "fullLabel": "Sosyalist Meclisler Federasyonu (SMF)\n(2018)"
+      }
+    },
+    {
+      "data": {
+        "id": "fatih-maçoğlu-ve-dersim-belediyesi",
+        "label": "Fatih Maçoğlu ve Dersim Belediyesi",
+        "year": "2019",
+        "desc": "SMF'nin TKP çatısıyla yerel seçimi kazanması.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "Çapraz İş Birliği: SMF (TKP-ML/MKP) + TKP (Yasal Çatı)",
+        "color": "#003049",
+        "fullLabel": "Fatih Maçoğlu ve Dersim Belediyesi\n(2019)"
+      }
+    },
+    {
+      "data": {
+        "id": "smf-ve-emek-ve-özgürlük-i̇ttifakı",
+        "label": "SMF ve Emek ve Özgürlük İttifakı",
+        "year": "2022",
+        "desc": "SMF'nin sol/sosyalist ittifak bloğuna katılımı.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "Ortak İttifak: TKP-ML/MKP (SMF) + THKO (EMEP) + THKP-C (EHP) + TİP + DEM Parti",
+        "color": "#003049",
+        "fullLabel": "SMF ve Emek ve Özgürlük İttifakı\n(2022)"
+      }
+    },
+    {
+      "data": {
+        "id": "güncel-tkp-ml,-mkp,-smf-ve-partizan-çizgisi",
+        "label": "Güncel TKP-ML, MKP, SMF ve Partizan Çizgisi",
+        "year": "2024-2026",
+        "desc": "Maoist kökenli hareketlerin güncel durumu.",
+        "period": "Güncel Dönem (2017-Günümüz)",
+        "group": "TKP-ML ve Türevleri",
+        "crossLink": "Güncel Akım",
+        "color": "#003049",
+        "fullLabel": "Güncel TKP-ML, MKP, SMF ve Partizan Çizgisi\n(2024-2026)"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "e_türkiye-i̇şçi-ve-çiftçi-fırkası_türkiye-komünist-partisi-tkp",
+        "source": "türkiye-i̇şçi-ve-çiftçi-fırkası",
+        "target": "türkiye-komünist-partisi-tkp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-halk-i̇ştirakiyûn-fırkası_türkiye-komünist-partisi-tkp",
+        "source": "türkiye-halk-i̇ştirakiyûn-fırkası",
+        "target": "türkiye-komünist-partisi-tkp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi-tkp_türkiye-sosyalist-emekçi-ve-köylü-partisi",
+        "source": "türkiye-komünist-partisi-tkp",
+        "target": "türkiye-sosyalist-emekçi-ve-köylü-partisi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi-tkp_vatan-partisi-1",
+        "source": "türkiye-komünist-partisi-tkp",
+        "target": "vatan-partisi-1"
+      }
+    },
+    {
+      "data": {
+        "id": "e_vatan-partisi-1_vatan-partisi-2",
+        "source": "vatan-partisi-1",
+        "target": "vatan-partisi-2"
+      }
+    },
+    {
+      "data": {
+        "id": "e_vatan-partisi-2_sosyalist-vatan-partisi",
+        "source": "vatan-partisi-2",
+        "target": "sosyalist-vatan-partisi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_sosyalist-vatan-partisi_halkın-kurtuluş-partisi-hkp",
+        "source": "sosyalist-vatan-partisi",
+        "target": "halkın-kurtuluş-partisi-hkp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi-tkp_sosyalist-gençlik-örgütü",
+        "source": "türkiye-komünist-partisi-tkp",
+        "target": "sosyalist-gençlik-örgütü"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi-tkp_türkiye-sosyalist-i̇şçi-partisi-tsi̇p",
+        "source": "türkiye-komünist-partisi-tkp",
+        "target": "türkiye-sosyalist-i̇şçi-partisi-tsi̇p"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi-tkp_türkiye-komünist-partisi-birlik",
+        "source": "türkiye-komünist-partisi-tkp",
+        "target": "türkiye-komünist-partisi-birlik"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi-tkp_tkp---i̇şçinin-sesi",
+        "source": "türkiye-komünist-partisi-tkp",
+        "target": "tkp---i̇şçinin-sesi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tkp---i̇şçinin-sesi_kurtuluş-yolu",
+        "source": "tkp---i̇şçinin-sesi",
+        "target": "kurtuluş-yolu"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi-tkp_tkp---devrimci-kanat",
+        "source": "türkiye-komünist-partisi-tkp",
+        "target": "tkp---devrimci-kanat"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tkp---devrimci-kanat_16-haziran-hareketi",
+        "source": "tkp---devrimci-kanat",
+        "target": "16-haziran-hareketi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tkp---devrimci-kanat_türkiye-devrim-partisi-tdp",
+        "source": "tkp---devrimci-kanat",
+        "target": "türkiye-devrim-partisi-tdp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_vatan-partisi-1_tkp---kıvılcım",
+        "source": "vatan-partisi-1",
+        "target": "tkp---kıvılcım"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi-tkp_10-eylül",
+        "source": "türkiye-komünist-partisi-tkp",
+        "target": "10-eylül"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi-tkp_ürün",
+        "source": "türkiye-komünist-partisi-tkp",
+        "target": "ürün"
+      }
+    },
+    {
+      "data": {
+        "id": "e_ürün_savaş-yolu",
+        "source": "ürün",
+        "target": "savaş-yolu"
+      }
+    },
+    {
+      "data": {
+        "id": "e_ürün_1920-tkp-toplumsal-kurtuluş-partisi",
+        "source": "ürün",
+        "target": "1920-tkp-toplumsal-kurtuluş-partisi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_1920-tkp-toplumsal-kurtuluş-partisi_toplumcu-kurtuluş-partisi",
+        "source": "1920-tkp-toplumsal-kurtuluş-partisi",
+        "target": "toplumcu-kurtuluş-partisi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi-tkp_türkiye-birleşik-komünist-partisi-tbkp",
+        "source": "türkiye-komünist-partisi-tkp",
+        "target": "türkiye-birleşik-komünist-partisi-tbkp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-birleşik-komünist-partisi-tbkp_sosyalist-birlik-partisi-sbp",
+        "source": "türkiye-birleşik-komünist-partisi-tbkp",
+        "target": "sosyalist-birlik-partisi-sbp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi-tkp_komünist-parti-kp",
+        "source": "türkiye-komünist-partisi-tkp",
+        "target": "komünist-parti-kp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi-tkp_halkın-komünist-partisi-htkp",
+        "source": "türkiye-komünist-partisi-tkp",
+        "target": "halkın-komünist-partisi-htkp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_halkın-komünist-partisi-htkp_türkiye-komünist-hareketi-tkh",
+        "source": "halkın-komünist-partisi-htkp",
+        "target": "türkiye-komünist-hareketi-tkh"
+      }
+    },
+    {
+      "data": {
+        "id": "e_halkın-komünist-partisi-htkp_türkiye-i̇şçi-partisi-ti̇p",
+        "source": "halkın-komünist-partisi-htkp",
+        "target": "türkiye-i̇şçi-partisi-ti̇p"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-i̇şçi-partisi-ti̇p_ti̇p-ve-tkp-seçim-süreçleri",
+        "source": "türkiye-i̇şçi-partisi-ti̇p",
+        "target": "ti̇p-ve-tkp-seçim-süreçleri"
+      }
+    },
+    {
+      "data": {
+        "id": "e_komünist-parti-kp_güncel-tkp,-ti̇p,-tkh-ve-hkp-faaliyetleri",
+        "source": "komünist-parti-kp",
+        "target": "güncel-tkp,-ti̇p,-tkh-ve-hkp-faaliyetleri"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-hareketi-tkh_güncel-tkp,-ti̇p,-tkh-ve-hkp-faaliyetleri",
+        "source": "türkiye-komünist-hareketi-tkh",
+        "target": "güncel-tkp,-ti̇p,-tkh-ve-hkp-faaliyetleri"
+      }
+    },
+    {
+      "data": {
+        "id": "e_halkın-kurtuluş-partisi-hkp_güncel-tkp,-ti̇p,-tkh-ve-hkp-faaliyetleri",
+        "source": "halkın-kurtuluş-partisi-hkp",
+        "target": "güncel-tkp,-ti̇p,-tkh-ve-hkp-faaliyetleri"
+      }
+    },
+    {
+      "data": {
+        "id": "e_sol-parti_sosyalist-güç-birliği-sgb",
+        "source": "sol-parti",
+        "target": "sosyalist-güç-birliği-sgb"
+      }
+    },
+    {
+      "data": {
+        "id": "e_komünist-parti-kp_sosyalist-güç-birliği-sgb",
+        "source": "komünist-parti-kp",
+        "target": "sosyalist-güç-birliği-sgb"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-hareketi-tkh_sosyalist-güç-birliği-sgb",
+        "source": "türkiye-komünist-hareketi-tkh",
+        "target": "sosyalist-güç-birliği-sgb"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-hareket_sosyalist-güç-birliği-sgb",
+        "source": "devrimci-hareket",
+        "target": "sosyalist-güç-birliği-sgb"
+      }
+    },
+    {
+      "data": {
+        "id": "e_fikir-kulüpleri-federasyonu-fkf_devrimci-gençlik-dev-genç",
+        "source": "fikir-kulüpleri-federasyonu-fkf",
+        "target": "devrimci-gençlik-dev-genç"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-gençlik-dev-genç_türkiye-halk-kurtuluş-partisi-cephesi-thkp-c",
+        "source": "devrimci-gençlik-dev-genç",
+        "target": "türkiye-halk-kurtuluş-partisi-cephesi-thkp-c"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-halk-kurtuluş-partisi-cephesi-thkp-c_thkp-c-marksist-leninist-partizan",
+        "source": "türkiye-halk-kurtuluş-partisi-cephesi-thkp-c",
+        "target": "thkp-c-marksist-leninist-partizan"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-halk-kurtuluş-partisi-cephesi-thkp-c_thkp-c-acilciler",
+        "source": "türkiye-halk-kurtuluş-partisi-cephesi-thkp-c",
+        "target": "thkp-c-acilciler"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-halk-kurtuluş-partisi-cephesi-thkp-c_thkp-c-mlspb",
+        "source": "türkiye-halk-kurtuluş-partisi-cephesi-thkp-c",
+        "target": "thkp-c-mlspb"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-halk-kurtuluş-partisi-cephesi-thkp-c_devrimci-gençlik-dernekleri-federasyonu-dgdf",
+        "source": "türkiye-halk-kurtuluş-partisi-cephesi-thkp-c",
+        "target": "devrimci-gençlik-dernekleri-federasyonu-dgdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-gençlik-dernekleri-federasyonu-dgdf_kurtuluş",
+        "source": "devrimci-gençlik-dernekleri-federasyonu-dgdf",
+        "target": "kurtuluş"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-gençlik-dernekleri-federasyonu-dgdf_devrimci-yol-dev-yol",
+        "source": "devrimci-gençlik-dernekleri-federasyonu-dgdf",
+        "target": "devrimci-yol-dev-yol"
+      }
+    },
+    {
+      "data": {
+        "id": "e_kurtuluş_tekoşin",
+        "source": "kurtuluş",
+        "target": "tekoşin"
+      }
+    },
+    {
+      "data": {
+        "id": "e_kurtuluş_türkiye-kuzey-kürdistan-kurtuluş-örgütü-tkkö",
+        "source": "kurtuluş",
+        "target": "türkiye-kuzey-kürdistan-kurtuluş-örgütü-tkkö"
+      }
+    },
+    {
+      "data": {
+        "id": "e_kurtuluş_emekçi-hareketi-partisi-ehp",
+        "source": "kurtuluş",
+        "target": "emekçi-hareketi-partisi-ehp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_kurtuluş_özgürlük-ve-dayanışma-partisi-ödp",
+        "source": "kurtuluş",
+        "target": "özgürlük-ve-dayanışma-partisi-ödp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_kasabalılar",
+        "source": "devrimci-yol-dev-yol",
+        "target": "kasabalılar"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_thkp-c-üçüncü-yol",
+        "source": "devrimci-yol-dev-yol",
+        "target": "thkp-c-üçüncü-yol"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_thkp-c-çayan-sempatizanları",
+        "source": "devrimci-yol-dev-yol",
+        "target": "thkp-c-çayan-sempatizanları"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_thkp-c-cephe-yolu",
+        "source": "devrimci-yol-dev-yol",
+        "target": "thkp-c-cephe-yolu"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_thkp-c-devrimci-koordinasyon-birliği",
+        "source": "devrimci-yol-dev-yol",
+        "target": "thkp-c-devrimci-koordinasyon-birliği"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_thkp-c-devrimci-savaş",
+        "source": "devrimci-yol-dev-yol",
+        "target": "thkp-c-devrimci-savaş"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_thkp-c-eylem-birliği",
+        "source": "devrimci-yol-dev-yol",
+        "target": "thkp-c-eylem-birliği"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_thkp-c-halkın-devrimci-öncüleri",
+        "source": "devrimci-yol-dev-yol",
+        "target": "thkp-c-halkın-devrimci-öncüleri"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_thkp-c-türkiye-kızıl-muhafızları-ordusu",
+        "source": "devrimci-yol-dev-yol",
+        "target": "thkp-c-türkiye-kızıl-muhafızları-ordusu"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_ana-gerilla-birliği",
+        "source": "devrimci-yol-dev-yol",
+        "target": "ana-gerilla-birliği"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_devrimci-sol-dev-sol",
+        "source": "devrimci-yol-dev-yol",
+        "target": "devrimci-sol-dev-sol"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_devrimci-hareket",
+        "source": "devrimci-yol-dev-yol",
+        "target": "devrimci-hareket"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_yeniden-devrim",
+        "source": "devrimci-yol-dev-yol",
+        "target": "yeniden-devrim"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-yol-dev-yol_özgürlük-ve-dayanışma-partisi-ödp",
+        "source": "devrimci-yol-dev-yol",
+        "target": "özgürlük-ve-dayanışma-partisi-ödp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-sol-dev-sol_thkp-c-devrimci-sol-dursun-karataş",
+        "source": "devrimci-sol-dev-sol",
+        "target": "thkp-c-devrimci-sol-dursun-karataş"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-sol-dev-sol_thkp-c-devrimci-sol-bedri-yağan",
+        "source": "devrimci-sol-dev-sol",
+        "target": "thkp-c-devrimci-sol-bedri-yağan"
+      }
+    },
+    {
+      "data": {
+        "id": "e_thkp-c-devrimci-sol-dursun-karataş_devrimci-halk-kurtuluş-partisi-cephesi-dhkp-c",
+        "source": "thkp-c-devrimci-sol-dursun-karataş",
+        "target": "devrimci-halk-kurtuluş-partisi-cephesi-dhkp-c"
+      }
+    },
+    {
+      "data": {
+        "id": "e_thkp-c-devrimci-sol-bedri-yağan_thkp-c-devrimci-sol-yeniden-yapılanma",
+        "source": "thkp-c-devrimci-sol-bedri-yağan",
+        "target": "thkp-c-devrimci-sol-yeniden-yapılanma"
+      }
+    },
+    {
+      "data": {
+        "id": "e_özgürlük-ve-dayanışma-partisi-ödp_sol-parti",
+        "source": "özgürlük-ve-dayanışma-partisi-ödp",
+        "target": "sol-parti"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-hareket_devrimci-hareket---sosyalist-güç-birliği",
+        "source": "devrimci-hareket",
+        "target": "devrimci-hareket---sosyalist-güç-birliği"
+      }
+    },
+    {
+      "data": {
+        "id": "e_sol-parti_güncel-sol-parti,-ehp-ve-dhkp-c-çizgisi",
+        "source": "sol-parti",
+        "target": "güncel-sol-parti,-ehp-ve-dhkp-c-çizgisi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_emekçi-hareketi-partisi-ehp_güncel-sol-parti,-ehp-ve-dhkp-c-çizgisi",
+        "source": "emekçi-hareketi-partisi-ehp",
+        "target": "güncel-sol-parti,-ehp-ve-dhkp-c-çizgisi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-halk-kurtuluş-partisi-cephesi-dhkp-c_güncel-sol-parti,-ehp-ve-dhkp-c-çizgisi",
+        "source": "devrimci-halk-kurtuluş-partisi-cephesi-dhkp-c",
+        "target": "güncel-sol-parti,-ehp-ve-dhkp-c-çizgisi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-gençlik-dev-genç_türkiye-halk-kurtuluş-ordusu-thko",
+        "source": "devrimci-gençlik-dev-genç",
+        "target": "türkiye-halk-kurtuluş-ordusu-thko"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-halk-kurtuluş-ordusu-thko_thko-geçici-merkez-komitesi-gmk",
+        "source": "türkiye-halk-kurtuluş-ordusu-thko",
+        "target": "thko-geçici-merkez-komitesi-gmk"
+      }
+    },
+    {
+      "data": {
+        "id": "e_thko-geçici-merkez-komitesi-gmk_thko-mücadelede-birlik-emeğin-birliği",
+        "source": "thko-geçici-merkez-komitesi-gmk",
+        "target": "thko-mücadelede-birlik-emeğin-birliği"
+      }
+    },
+    {
+      "data": {
+        "id": "e_thko-geçici-merkez-komitesi-gmk_halkın-kurtuluşu",
+        "source": "thko-geçici-merkez-komitesi-gmk",
+        "target": "halkın-kurtuluşu"
+      }
+    },
+    {
+      "data": {
+        "id": "e_thko-geçici-merkez-komitesi-gmk_türkiye-devriminin-yolu-tdy",
+        "source": "thko-geçici-merkez-komitesi-gmk",
+        "target": "türkiye-devriminin-yolu-tdy"
+      }
+    },
+    {
+      "data": {
+        "id": "e_thko-geçici-merkez-komitesi-gmk_thko---diriliş",
+        "source": "thko-geçici-merkez-komitesi-gmk",
+        "target": "thko---diriliş"
+      }
+    },
+    {
+      "data": {
+        "id": "e_thko-geçici-merkez-komitesi-gmk_thko---emeğin-kurtuluşu-yolunda-işık",
+        "source": "thko-geçici-merkez-komitesi-gmk",
+        "target": "thko---emeğin-kurtuluşu-yolunda-işık"
+      }
+    },
+    {
+      "data": {
+        "id": "e_thko-geçici-merkez-komitesi-gmk_thko---devrimci-proletarya",
+        "source": "thko-geçici-merkez-komitesi-gmk",
+        "target": "thko---devrimci-proletarya"
+      }
+    },
+    {
+      "data": {
+        "id": "e_halkın-kurtuluşu_tdkp---i̇nşa-örgütü",
+        "source": "halkın-kurtuluşu",
+        "target": "tdkp---i̇nşa-örgütü"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tdkp---i̇nşa-örgütü_türkiye-devrimci-komünist-partisi-tdkp",
+        "source": "tdkp---i̇nşa-örgütü",
+        "target": "türkiye-devrimci-komünist-partisi-tdkp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_thko-mücadelede-birlik-emeğin-birliği_türkiye-komünist-emek-partisi-tkep",
+        "source": "thko-mücadelede-birlik-emeğin-birliği",
+        "target": "türkiye-komünist-emek-partisi-tkep"
+      }
+    },
+    {
+      "data": {
+        "id": "e_thko---devrimci-proletarya_türkiye-i̇htilalci-komünistler-birliği-ti̇kb",
+        "source": "thko---devrimci-proletarya",
+        "target": "türkiye-i̇htilalci-komünistler-birliği-ti̇kb"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-devrimci-komünist-partisi-tdkp_tdkp---sosyalist-birlik",
+        "source": "türkiye-devrimci-komünist-partisi-tdkp",
+        "target": "tdkp---sosyalist-birlik"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-devrimci-komünist-partisi-tdkp_ekim",
+        "source": "türkiye-devrimci-komünist-partisi-tdkp",
+        "target": "ekim"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-devrimci-komünist-partisi-tdkp_türkiye-devrimci-komünist-i̇şçi-hareketi-tdki̇h",
+        "source": "türkiye-devrimci-komünist-partisi-tdkp",
+        "target": "türkiye-devrimci-komünist-i̇şçi-hareketi-tdki̇h"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-emek-partisi-tkep_tkep---leninist",
+        "source": "türkiye-komünist-emek-partisi-tkep",
+        "target": "tkep---leninist"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-emek-partisi-tkep_özgürlük-ve-dayanışma-partisi-ödp",
+        "source": "türkiye-komünist-emek-partisi-tkep",
+        "target": "özgürlük-ve-dayanışma-partisi-ödp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-devrimci-komünist-partisi-tdkp_emek-partisi-emep",
+        "source": "türkiye-devrimci-komünist-partisi-tdkp",
+        "target": "emek-partisi-emep"
+      }
+    },
+    {
+      "data": {
+        "id": "e_emek-partisi-emep_emeğin-partisi-emep",
+        "source": "emek-partisi-emep",
+        "target": "emeğin-partisi-emep"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-i̇htilalci-komünistler-birliği-ti̇kb_türkiye-komünist-i̇htilalciler-birliği-tki̇b",
+        "source": "türkiye-i̇htilalci-komünistler-birliği-ti̇kb",
+        "target": "türkiye-komünist-i̇htilalciler-birliği-tki̇b"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-i̇htilalciler-birliği-tki̇b_devrimci-halk-hareketi",
+        "source": "türkiye-komünist-i̇htilalciler-birliği-tki̇b",
+        "target": "devrimci-halk-hareketi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-i̇htilalciler-birliği-tki̇b_tki̇b---bolşevik",
+        "source": "türkiye-komünist-i̇htilalciler-birliği-tki̇b",
+        "target": "tki̇b---bolşevik"
+      }
+    },
+    {
+      "data": {
+        "id": "e_emeğin-partisi-emep_emep-ve-emek-ve-özgürlük-i̇ttifakı",
+        "source": "emeğin-partisi-emep",
+        "target": "emep-ve-emek-ve-özgürlük-i̇ttifakı"
+      }
+    },
+    {
+      "data": {
+        "id": "e_emeğin-partisi-emep_emepin-tbmm-mebusluğu-ve-seçim-süreci",
+        "source": "emeğin-partisi-emep",
+        "target": "emepin-tbmm-mebusluğu-ve-seçim-süreci"
+      }
+    },
+    {
+      "data": {
+        "id": "e_emeğin-partisi-emep_güncel-emep,-tki̇p-ve-ti̇kb-durumu",
+        "source": "emeğin-partisi-emep",
+        "target": "güncel-emep,-tki̇p-ve-ti̇kb-durumu"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-i̇htilalciler-birliği-tki̇b_güncel-emep,-tki̇p-ve-ti̇kb-durumu",
+        "source": "türkiye-komünist-i̇htilalciler-birliği-tki̇b",
+        "target": "güncel-emep,-tki̇p-ve-ti̇kb-durumu"
+      }
+    },
+    {
+      "data": {
+        "id": "e_devrimci-gençlik-dev-genç_proleter-devrimci-aydınlık-pda",
+        "source": "devrimci-gençlik-dev-genç",
+        "target": "proleter-devrimci-aydınlık-pda"
+      }
+    },
+    {
+      "data": {
+        "id": "e_proleter-devrimci-aydınlık-pda_türkiye-i̇htilalci-i̇şçi-ve-köylü-partisi-ti̇i̇kp",
+        "source": "proleter-devrimci-aydınlık-pda",
+        "target": "türkiye-i̇htilalci-i̇şçi-ve-köylü-partisi-ti̇i̇kp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-i̇htilalci-i̇şçi-ve-köylü-partisi-ti̇i̇kp_türkiye-komünist-partisi---marksist-leninist-tkp-ml",
+        "source": "türkiye-i̇htilalci-i̇şçi-ve-köylü-partisi-ti̇i̇kp",
+        "target": "türkiye-komünist-partisi---marksist-leninist-tkp-ml"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi---marksist-leninist-tkp-ml_halkın-birliği-tkp-ml-hareketi",
+        "source": "türkiye-komünist-partisi---marksist-leninist-tkp-ml",
+        "target": "halkın-birliği-tkp-ml-hareketi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi---marksist-leninist-tkp-ml_tkp-ml-1.-konferansı",
+        "source": "türkiye-komünist-partisi---marksist-leninist-tkp-ml",
+        "target": "tkp-ml-1.-konferansı"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tkp-ml-1.-konferansı_tkp-ml-2.-konferansı",
+        "source": "tkp-ml-1.-konferansı",
+        "target": "tkp-ml-2.-konferansı"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi---marksist-leninist-tkp-ml_tkp-ml-bolşevik-partizan",
+        "source": "türkiye-komünist-partisi---marksist-leninist-tkp-ml",
+        "target": "tkp-ml-bolşevik-partizan"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tkp-ml-bolşevik-partizan_spartaküs",
+        "source": "tkp-ml-bolşevik-partizan",
+        "target": "spartaküs"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tkp-ml-bolşevik-partizan_mücadele-bayrağı",
+        "source": "tkp-ml-bolşevik-partizan",
+        "target": "mücadele-bayrağı"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tkp-ml-bolşevik-partizan_bolşevik-partizan-->-bolşevik-parti-kk-t",
+        "source": "tkp-ml-bolşevik-partizan",
+        "target": "bolşevik-partizan-->-bolşevik-parti-kk-t"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi---marksist-leninist-tkp-ml_tkp-ml-maoist-parti-merkezi-mpm",
+        "source": "türkiye-komünist-partisi---marksist-leninist-tkp-ml",
+        "target": "tkp-ml-maoist-parti-merkezi-mpm"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi---marksist-leninist-tkp-ml_tkp-ml-i̇kiye-bölündü:-dabk-ve-konferansçılar",
+        "source": "türkiye-komünist-partisi---marksist-leninist-tkp-ml",
+        "target": "tkp-ml-i̇kiye-bölündü:-dabk-ve-konferansçılar"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tkp-ml-i̇kiye-bölündü:-dabk-ve-konferansçılar_tkp-ml-birleşmesi-dabk-ve-konferans",
+        "source": "tkp-ml-i̇kiye-bölündü:-dabk-ve-konferansçılar",
+        "target": "tkp-ml-birleşmesi-dabk-ve-konferans"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tkp-ml-birleşmesi-dabk-ve-konferans_tkp-ml-yeniden-bölündü-tkpml-ve-tkp-ml",
+        "source": "tkp-ml-birleşmesi-dabk-ve-konferans",
+        "target": "tkp-ml-yeniden-bölündü-tkpml-ve-tkp-ml"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tkp-ml-yeniden-bölündü-tkpml-ve-tkp-ml_tkp-ml-geçici-örgütlenme-komitesi-gök",
+        "source": "tkp-ml-yeniden-bölündü-tkpml-ve-tkp-ml",
+        "target": "tkp-ml-geçici-örgütlenme-komitesi-gök"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tkp-ml-yeniden-bölündü-tkpml-ve-tkp-ml_maoist-komünist-parti-mkp",
+        "source": "tkp-ml-yeniden-bölündü-tkpml-ve-tkp-ml",
+        "target": "maoist-komünist-parti-mkp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_maoist-komünist-parti-mkp_mkp-17-merkez-kadrosunun-kaybı",
+        "source": "maoist-komünist-parti-mkp",
+        "target": "mkp-17-merkez-kadrosunun-kaybı"
+      }
+    },
+    {
+      "data": {
+        "id": "e_maoist-komünist-parti-mkp_sosyalist-meclisler-federasyonu-smf",
+        "source": "maoist-komünist-parti-mkp",
+        "target": "sosyalist-meclisler-federasyonu-smf"
+      }
+    },
+    {
+      "data": {
+        "id": "e_sosyalist-meclisler-federasyonu-smf_fatih-maçoğlu-ve-dersim-belediyesi",
+        "source": "sosyalist-meclisler-federasyonu-smf",
+        "target": "fatih-maçoğlu-ve-dersim-belediyesi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_komünist-parti-kp_fatih-maçoğlu-ve-dersim-belediyesi",
+        "source": "komünist-parti-kp",
+        "target": "fatih-maçoğlu-ve-dersim-belediyesi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_sosyalist-meclisler-federasyonu-smf_smf-ve-emek-ve-özgürlük-i̇ttifakı",
+        "source": "sosyalist-meclisler-federasyonu-smf",
+        "target": "smf-ve-emek-ve-özgürlük-i̇ttifakı"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi---marksist-leninist-tkp-ml_tkp-ml-i̇çi-çatışma-ve-bölünme",
+        "source": "türkiye-komünist-partisi---marksist-leninist-tkp-ml",
+        "target": "tkp-ml-i̇çi-çatışma-ve-bölünme"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi---marksist-leninist-tkp-ml_tkp-ml,-mkp,-bolşevik-parti-faal-durumu",
+        "source": "türkiye-komünist-partisi---marksist-leninist-tkp-ml",
+        "target": "tkp-ml,-mkp,-bolşevik-parti-faal-durumu"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-komünist-partisi---marksist-leninist-tkp-ml_güncel-tkp-ml,-mkp,-smf-ve-partizan-çizgisi",
+        "source": "türkiye-komünist-partisi---marksist-leninist-tkp-ml",
+        "target": "güncel-tkp-ml,-mkp,-smf-ve-partizan-çizgisi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_maoist-komünist-parti-mkp_güncel-tkp-ml,-mkp,-smf-ve-partizan-çizgisi",
+        "source": "maoist-komünist-parti-mkp",
+        "target": "güncel-tkp-ml,-mkp,-smf-ve-partizan-çizgisi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_sosyalist-meclisler-federasyonu-smf_güncel-tkp-ml,-mkp,-smf-ve-partizan-çizgisi",
+        "source": "sosyalist-meclisler-federasyonu-smf",
+        "target": "güncel-tkp-ml,-mkp,-smf-ve-partizan-çizgisi"
+      }
+    },
+    {
+      "data": {
+        "id": "e_tkep---leninist_marksist-leninist-komünist-parti-mlkp",
+        "source": "tkep---leninist",
+        "target": "marksist-leninist-komünist-parti-mlkp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_halkın-birliği-tkp-ml-hareketi_marksist-leninist-komünist-parti-mlkp",
+        "source": "halkın-birliği-tkp-ml-hareketi",
+        "target": "marksist-leninist-komünist-parti-mlkp"
+      }
+    },
+    {
+      "data": {
+        "id": "e_türkiye-i̇şçi-partisi-ti̇p_ehp-ve-emek-ve-özgürlük-i̇ttifakı",
+        "source": "türkiye-i̇şçi-partisi-ti̇p",
+        "target": "ehp-ve-emek-ve-özgürlük-i̇ttifakı"
+      }
+    },
+    {
+      "data": {
+        "id": "e_emekçi-hareketi-partisi-ehp_ehp-ve-emek-ve-özgürlük-i̇ttifakı",
+        "source": "emekçi-hareketi-partisi-ehp",
+        "target": "ehp-ve-emek-ve-özgürlük-i̇ttifakı"
+      }
+    },
+    {
+      "data": {
+        "id": "e_emeğin-partisi-emep_ehp-ve-emek-ve-özgürlük-i̇ttifakı",
+        "source": "emeğin-partisi-emep",
+        "target": "ehp-ve-emek-ve-özgürlük-i̇ttifakı"
+      }
+    },
+    {
+      "data": {
+        "id": "e_sosyalist-meclisler-federasyonu-smf_ehp-ve-emek-ve-özgürlük-i̇ttifakı",
+        "source": "sosyalist-meclisler-federasyonu-smf",
+        "target": "ehp-ve-emek-ve-özgürlük-i̇ttifakı"
+      }
+    }
+  ]
+}

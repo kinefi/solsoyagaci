@@ -9,7 +9,7 @@ export const dagreLayout = {
   name: 'dagre',
   rankDir: 'LR',
   align: 'DL',
-  nodeSep: 65,
+  nodeSep: 75,
   rankSep: 180,
   animate: true
 };
@@ -23,14 +23,14 @@ export const cytoscapeStyle = [
       'color': '#ffffff',
       'text-valign': 'center',
       'text-halign': 'center',
-      'font-size': '14px',
+      'font-size': '16px',
       'font-weight': 'bold',
-      'width': '95px',
-      'height': '95px',
-      'padding': '12px',
+      'width': '125px',
+      'height': '125px',
+      'padding': '16px',
       'text-max-width': '80px',
       'text-wrap': 'wrap',
-      'border-width': 3,
+      'border-width': 2,
       'border-color': '#ffffff',
       'cursor': 'pointer'
     }

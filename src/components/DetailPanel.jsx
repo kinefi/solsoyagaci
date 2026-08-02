@@ -1,4 +1,3 @@
-import React from 'react';
 import { X, Info } from 'lucide-react';
 
 export default function DetailPanel({ selectedNode, setSelectedNode }) {
@@ -15,7 +14,16 @@ export default function DetailPanel({ selectedNode, setSelectedNode }) {
         </button>
       </div>
 
-      <h2 className="text-xl font-extrabold text-white mb-2 leading-tight">{selectedNode.label}</h2>
+      <h2 className="text-xl font-extrabold text-white mb-2 leading-tight">
+        {selectedNode.wikipediaUrl ?
+          <a
+            href={selectedNode.wikipediaUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline text-blue-600 dark:text-blue-400"
+            title="Wikipedia'da aç"
+          >{selectedNode.label}</a> : <>{selectedNode.label}</>}
+      </h2>
       <div className="inline-block bg-amber-500/10 text-amber-400 px-3 py-1 rounded-lg text-xs font-mono font-semibold mb-4 border border-amber-500/20">
         Kuruluş / Yıl: {selectedNode.year}
       </div>

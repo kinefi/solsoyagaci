@@ -1,6 +1,7 @@
 # Sol Soyağacı - Türkiye Devrimci Hareketi Tarihsel Ağı ve İttifaklar Ağı
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![GitHub Pages Deploy](https://github.com/kinefi/solsoyagaci/actions/workflows/deploy.yml/badge.svg)](https://kinefi.github.io/solsoyagaci/)
 
 Sol Soyağacı, Türkiye sol/devrimci hareketinin 1919'dan günümüze (TKP, THKP-C, THKO ve TKP-ML gelenekleri) tarihsel gelişimini, bölünmelerini, birleşmelerini ve güncel ittifak yapılarını görselleştiren etkileşimli bir ağ ve soyağacı uygulamasıdır.
 

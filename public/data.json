@@ -3,7 +3,7 @@
     {
       "data": {
         "id": "türkiye-i̇şçi-ve-çiftçi-fırkası",
-        "label": "Türkiye İşçi ve Çiftçi Fırkası",
+        "label": "Türkiye İşçi ve Çiftçi Sosyalist Fırkası",
         "year": "1919",
         "desc": "İstanbul'da Dr. Şefik Hüsnü ve arkadaşlarınca kuruldu.",
         "period": "Erken Dönem (1919-1960)",
@@ -11,7 +11,8 @@
         "crossLink": "Doğrudan TKP Kökenli",
         "color": "#E63946",
         "fullLabel": "Türkiye İşçi ve Çiftçi Fırkası\n(1919)",
-        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_%C4%B0%C5%9F%C3%A7i_ve_%C3%87ift%C3%A7i_F%C4%B1rkas%C4%B1"
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_%C4%B0%C5%9F%C3%A7i_ve_%C3%87ift%C3%A7i_F%C4%B1rkas%C4%B1",
+        "isRoot": true
       }
     },
     {
@@ -25,7 +26,8 @@
         "crossLink": "Sol Hareketin Ortak Kökü (Tüm Sayfalar)",
         "color": "#E63946",
         "fullLabel": "Türkiye Komünist Partisi (TKP)\n(1920)",
-        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Kom%C3%BCnist_Partisi_(1920)"
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Kom%C3%BCnist_Partisi_(1920)",
+        "isRoot": true
       }
     },
     {
@@ -39,7 +41,8 @@
         "crossLink": "Doğrudan TKP Kökenli",
         "color": "#E63946",
         "fullLabel": "Türkiye Halk İştirakiyûn Fırkası\n(1920)",
-        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_%C4%B0%C5%9Ftirakiy%C3%BBn_F%C4%B1rkas%C4%B1"
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_%C4%B0%C5%9Ftirakiy%C3%BBn_F%C4%B1rkas%C4%B1",
+        "isRoot": true
       }
     },
     {
@@ -59,7 +62,7 @@
     {
       "data": {
         "id": "vatan-partisi-1",
-        "label": "Vatan Partisi-1",
+        "label": "Vatan Partisi (1954)",
         "year": "1954",
         "desc": "Dr. Hikmet Kıvılcımlı tarafından kuruldu.",
         "period": "Erken Dönem (1919-1960)",
@@ -109,13 +112,13 @@
         "crossLink": "TKP İçi Ayrışma",
         "color": "#E63946",
         "fullLabel": "Türkiye Komünist Partisi (Birlik)\n(1975)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Kom%C3%BCnist_Partisi/Birlik"
       }
     },
     {
       "data": {
         "id": "vatan-partisi-2",
-        "label": "Vatan Partisi-2",
+        "label": "Vatan Partisi (1975)",
         "year": "1975",
         "desc": "Orhan Aksungur önderliğinde yeniden kurulan Vatan Partisi.",
         "period": "Kitleselleşme (1960-1980)",
@@ -123,7 +126,7 @@
         "crossLink": "Kıvılcımlı Çizgisi",
         "color": "#E63946",
         "fullLabel": "Vatan Partisi-2\n(1975)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Vatan_Partisi_(1954)#Yeniden_kurulu%C5%9Fu_ve_kapat%C4%B1lmas%C4%B1"
       }
     },
     {
@@ -137,7 +140,7 @@
         "crossLink": "Kıvılcımlı Çizgisi",
         "color": "#E63946",
         "fullLabel": "Sosyalist Vatan Partisi\n(1979)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Sosyalist_Vatan_Partisi"
       }
     },
     {
@@ -151,7 +154,7 @@
         "crossLink": "TKP İçi Ayrışma",
         "color": "#E63946",
         "fullLabel": "TKP - İşçinin Sesi\n(1979)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Kom%C3%BCnist_Partisi_(%C4%B0%C5%9F%C3%A7inin_Sesi)"
       }
     },
     {
@@ -159,13 +162,13 @@
         "id": "tkp---devrimci-kanat",
         "label": "TKP - Devrimci Kanat",
         "year": "1980",
-        "desc": "TKP içindeki silahlı/radikal atılımı savunan ayrışma.",
+        "desc": "1980'de TKP'den kopan kısa ömürlü yasadışı siyasi parti. TKP içindeki silahlı/radikal atılımı savunan ayrışma.",
         "period": "Kitleselleşme (1960-1980)",
         "group": "TKP ve Türevleri",
         "crossLink": "TKP İçi Ayrışma",
         "color": "#E63946",
         "fullLabel": "TKP - Devrimci Kanat\n(1980)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Kom%C3%BCnist_Partisi"
       }
     },
     {
@@ -221,7 +224,7 @@
         "crossLink": "Kıvılcımlı Çizgisi",
         "color": "#E63946",
         "fullLabel": "TKP - Kıvılcım\n(1989)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Kom%C3%BCnist_Partisi"
       }
     },
     {
@@ -277,7 +280,7 @@
         "crossLink": "Gelenek/Ürün Çizgisi",
         "color": "#E63946",
         "fullLabel": "Ürün\n(1996)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/%C3%9Cr%C3%BCn_Sosyalist_Dergi_(1974)"
       }
     },
     {
@@ -319,7 +322,7 @@
         "crossLink": "Ürün Kökenli",
         "color": "#E63946",
         "fullLabel": "1920 TKP (Toplumsal Kurtuluş Partisi)\n(2012)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Toplumcu_Kurtulu%C5%9F_Partisi_(T%C3%BCrkiye)"
       }
     },
     {
@@ -333,21 +336,21 @@
         "crossLink": "TKP 2014 Ayrışması",
         "color": "#E63946",
         "fullLabel": "Komünist Parti (KP)\n(2014)",
-        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Kom%C3%BCnist_Parti_(parti)"
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Kom%C3%BCnist_Parti_(T%C3%BCrkiye)"
       }
     },
     {
       "data": {
         "id": "halkın-komünist-partisi-htkp",
-        "label": "Halkın Komünist Partisi (HTKP)",
+        "label": "Halkın Türkiye Komünist Partisi (HTKP)",
         "year": "2014",
         "desc": "TKP ayrışmasında Erkan Baş ve arkadaşlarınca kurulan parti.",
         "period": "Legal Arayışlar (1990-2016)",
         "group": "TKP ve Türevleri",
         "crossLink": "TKP 2014 Ayrışması -> TİP'e Dönüşüm",
         "color": "#E63946",
-        "fullLabel": "Halkın Komünist Partisi (HTKP)\n(2014)",
-        "wikipediaUrl": "https://tr.wikipedia.org/wikiHalk%C4%B1n_Kom%C3%BCnist_Partisi"
+        "fullLabel": "Halkın Türkiye Komünist Partisi (HTKP)\n(2014)",
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Halk%C4%B1n_T%C3%BCrkiye_Kom%C3%BCnist_Partisi"
       }
     },
     {
@@ -389,7 +392,7 @@
         "crossLink": "Ürün Kökenli",
         "color": "#E63946",
         "fullLabel": "Toplumcu Kurtuluş Partisi\n(2020)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Toplumcu_Kurtulu%C5%9F_Partisi_(T%C3%BCrkiye)"
       }
     },
     {
@@ -445,7 +448,8 @@
         "crossLink": "Ortak Kök: FKF/Dev-Genç (Tüm Sayfalar)",
         "color": "#D62828",
         "fullLabel": "Fikir Kulüpleri Federasyonu (FKF)\n(1965)",
-        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Fikir_Kul%C3%BCpleri_Federasyonu"
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Fikir_Kul%C3%BCpleri_Federasyonu",
+        "isRoot": true
       }
     },
     {
@@ -459,7 +463,8 @@
         "crossLink": "Ortak Kök: FKF/Dev-Genç (Tüm Sayfalar)",
         "color": "#D62828",
         "fullLabel": "Devrimci Gençlik (Dev-Genç)\n(1969)",
-        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Devrimci_Gen%C3%A7lik"
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Devrimci_Gen%C3%A7lik",
+        "isRoot": true
       }
     },
     {
@@ -472,8 +477,9 @@
         "group": "THKP-C ve Türevleri",
         "crossLink": "1971 Üç Ana Damardan Biri",
         "color": "#D62828",
-        "fullLabel": "Türkiye_Halk_Kurtuluş_Partisi-Cephesi_(THKP-C)\n(1971)",
-        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Partisi-Cephesi"
+        "fullLabel": "Türkiye Halk Kurtuluş Partisi-Cephesi (THKP-C)\n(1971)",
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Partisi-Cephesi",
+        "isRoot": true
       }
     },
     {
@@ -495,7 +501,7 @@
         "id": "thkp-c-acilciler",
         "label": "THKP-C Acilciler",
         "year": "1973",
-        "desc": "Mihri Belli ve Engin Erkiner çevresi.",
+        "desc": "Mihraç Ural ve Engin Erkiner çevresi.",
         "period": "12 Mart Sonrası Yeniden Yapılanma",
         "group": "THKP-C ve Türevleri",
         "crossLink": "THKP-C İçi Kopuş",
@@ -537,13 +543,13 @@
         "id": "kurtuluş",
         "label": "Kurtuluş",
         "year": "1976",
-        "desc": "İşçi sınıfı odağını ve 'Kurtuluş' dergisini öne çıkaran hat.",
+        "desc": "İşçi sınıfı odağını ve 'Kurtuluş' dergisini öne çıkarak hat.",
         "period": "Kitlesel Mücadele (1974-1980)",
         "group": "THKP-C ve Türevleri",
         "crossLink": "THKP-C Ana Damarlarından Biri",
         "color": "#D62828",
         "fullLabel": "Kurtuluş\n(1976)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Kurtulu%C5%9F_Hareketi"
       }
     },
     {
@@ -571,7 +577,7 @@
         "crossLink": "Kurtuluş Ayrışması",
         "color": "#D62828",
         "fullLabel": "Tekoşin\n(1977)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Teko%C5%9Fin"
       }
     },
     {
@@ -599,7 +605,7 @@
         "crossLink": "Yerel Ayrışma",
         "color": "#D62828",
         "fullLabel": "Kasabalılar\n(1978)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Partisi-Cephesi"
       }
     },
     {
@@ -613,7 +619,7 @@
         "crossLink": "Yayın Çevresi",
         "color": "#D62828",
         "fullLabel": "THKP-C Üçüncü Yol\n(1978)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Partisi-Cephesi"
       }
     },
     {
@@ -627,7 +633,7 @@
         "crossLink": "Grup",
         "color": "#D62828",
         "fullLabel": "THKP-C Çayan Sempatizanları\n(1979)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Partisi-Cephesi"
       }
     },
     {
@@ -641,7 +647,7 @@
         "crossLink": "Yayın Çevresi",
         "color": "#D62828",
         "fullLabel": "THKP-C Cephe Yolu\n(1979)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Partisi-Cephesi"
       }
     },
     {
@@ -655,7 +661,7 @@
         "crossLink": "Koordinasyon Arayışı",
         "color": "#D62828",
         "fullLabel": "THKP-C Devrimci Koordinasyon Birliği\n(1979)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Partisi-Cephesi/Devrimci_Koordinasyon_Birli%C4%9Fi"
       }
     },
     {
@@ -669,7 +675,7 @@
         "crossLink": "Fraksiyon",
         "color": "#D62828",
         "fullLabel": "THKP-C Devrimci Savaş\n(1976)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Partisi-Cephesi"
       }
     },
     {
@@ -683,35 +689,35 @@
         "crossLink": "Fraksiyon",
         "color": "#D62828",
         "fullLabel": "THKP-C Eylem Birliği\n(1976)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Partisi-Cephesi"
       }
     },
     {
       "data": {
         "id": "thkp-c-halkın-devrimci-öncüleri",
         "label": "THKP-C Halkın Devrimci Öncüleri",
-        "year": "1979",
+        "year": "1976",
         "desc": "THKP-C mirasçısı ayrışma grubu.",
         "period": "Kitlesel Mücadele (1974-1980)",
         "group": "THKP-C ve Türevleri",
         "crossLink": "Fraksiyon",
         "color": "#D62828",
-        "fullLabel": "THKP-C Halkın Devrimci Öncüleri\n(1979)",
-        "wikipediaUrl": ""
+        "fullLabel": "THKP-C Halkın Devrimci Öncüleri\n(1976)",
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Partisi-Cephesi"
       }
     },
     {
       "data": {
         "id": "thkp-c-türkiye-kızıl-muhafızları-ordusu",
-        "label": "THKP-C Türkiye Kızıl Muhafızları Ordusu",
+        "label": "THKP-C Türkiye Kızıl Muhafızlar Ordusu",
         "year": "1979",
         "desc": "Radikal kır/şehir hücresi denemesi.",
         "period": "Kitlesel Mücadele (1974-1980)",
         "group": "THKP-C ve Türevleri",
         "crossLink": "Fraksiyon",
         "color": "#D62828",
-        "fullLabel": "THKP-C Türkiye Kızıl Muhafızları Ordusu\n(1979)",
-        "wikipediaUrl": ""
+        "fullLabel": "THKP-C Türkiye Kızıl Muhafızlar Ordusu\n(1979)",
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Partisi-Cephesi"
       }
     },
     {
@@ -823,7 +829,7 @@
         "crossLink": "Dev-Yol Çizgisi",
         "color": "#D62828",
         "fullLabel": "Devrimci Hareket\n(2000)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Devrimci_Hareket"
       }
     },
     {
@@ -837,7 +843,7 @@
         "crossLink": "Kurtuluş Geleneği",
         "color": "#D62828",
         "fullLabel": "Emekçi Hareketi Partisi (EHP)\n(2004)",
-        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Emek%C3%A7i_Hareketi_Partisi"
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Emek%C3%A7i_Hareket_Partisi"
       }
     },
     {
@@ -921,7 +927,8 @@
         "crossLink": "1971 Üç Ana Damardan Biri",
         "color": "#F77F00",
         "fullLabel": "Türkiye Halk Kurtuluş Ordusu (THKO)\n(1970)",
-        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Ordusu"
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Ordusu",
+        "isRoot": true
       }
     },
     {
@@ -935,7 +942,7 @@
         "crossLink": "THKO Toparlanma",
         "color": "#F77F00",
         "fullLabel": "THKO Geçici Merkez Komitesi (GMK)\n(1974)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Ordusu"
       }
     },
     {
@@ -949,7 +956,7 @@
         "crossLink": "THKO İçi Dönüşüm",
         "color": "#F77F00",
         "fullLabel": "THKO Mücadelede Birlik (Emeğin Birliği)\n(1975)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Ordusu"
       }
     },
     {
@@ -963,7 +970,7 @@
         "crossLink": "THKO Kitlesel Gövdesi",
         "color": "#F77F00",
         "fullLabel": "Halkın Kurtuluşu\n(1976)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Halk%C4%B1n_Kurtulu%C5%9Fu"
       }
     },
     {
@@ -977,7 +984,7 @@
         "crossLink": "THKO Ayrışması",
         "color": "#F77F00",
         "fullLabel": "Türkiye Devriminin Yolu (TDY)\n(1976)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Ordusu"
       }
     },
     {
@@ -991,7 +998,7 @@
         "crossLink": "THKO Ayrışması",
         "color": "#F77F00",
         "fullLabel": "THKO - Diriliş\n(1977)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Ordusu"
       }
     },
     {
@@ -1005,7 +1012,7 @@
         "crossLink": "Yayın Çevresi",
         "color": "#F77F00",
         "fullLabel": "THKO - Emeğin Kurtuluşu Yolunda Işık\n(1977)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Halk_Kurtulu%C5%9F_Ordusu"
       }
     },
     {
@@ -1019,7 +1026,7 @@
         "crossLink": "TİKB'ye Dönüşüm",
         "color": "#F77F00",
         "fullLabel": "THKO - Devrimci Proletarya\n(1977)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_%C4%B0htilalci_Kom%C3%BCnistler_Birli%C4%9Fi"
       }
     },
     {
@@ -1033,7 +1040,7 @@
         "crossLink": "Halkın Kurtuluşu Partileşmesi",
         "color": "#F77F00",
         "fullLabel": "TDKP - İnşa Örgütü\n(1978)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Devrimci_Kom%C3%BCnist_Partisi"
       }
     },
     {
@@ -1089,7 +1096,7 @@
         "crossLink": "TDKP Ayrışması",
         "color": "#F77F00",
         "fullLabel": "TDKP - Sosyalist Birlik\n(1987)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Devrimci_Kom%C3%BCnist_Partisi"
       }
     },
     {
@@ -1103,7 +1110,7 @@
         "crossLink": "TDKP Ayrışması -> TKİP",
         "color": "#F77F00",
         "fullLabel": "Ekim\n(1988)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Kom%C3%BCnist_%C4%B0%C5%9F%C3%A7i_Partisi"
       }
     },
     {
@@ -1117,7 +1124,7 @@
         "crossLink": "TDKP Ayrışması",
         "color": "#F77F00",
         "fullLabel": "Türkiye Devrimci Komünist İşçi Hareketi (TDKİH)\n(1989)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Devrimci_Kom%C3%BCnist_%C4%B0%C5%9F%C3%A7i_Hareketi"
       }
     },
     {
@@ -1131,7 +1138,7 @@
         "crossLink": "TKEP Bölünmesi",
         "color": "#F77F00",
         "fullLabel": "TKEP - Leninist\n(1990)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Kom%C3%BCnist_Emek_Partisi/Leninist"
       }
     },
     {
@@ -1187,7 +1194,7 @@
         "crossLink": "TİKB Geleneği",
         "color": "#F77F00",
         "fullLabel": "Türkiye Komünist İhtilalciler Birliği (TKİB)\n(1998)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_%C4%B0htilalci_Kom%C3%BCnistler_Birli%C4%9Fi"
       }
     },
     {
@@ -1201,7 +1208,7 @@
         "crossLink": "TKİB Ayrışması",
         "color": "#F77F00",
         "fullLabel": "Devrimci Halk Hareketi\n(1999)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Devrimci_Halk_Hareketi"
       }
     },
     {
@@ -1215,7 +1222,7 @@
         "crossLink": "TKİB Ayrışması",
         "color": "#F77F00",
         "fullLabel": "TKİB - Bolşevik\n(1999)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_%C4%B0htilalci_Kom%C3%BCnistler_Birli%C4%9Fi"
       }
     },
     {
@@ -1271,7 +1278,8 @@
         "crossLink": "Maoist/Milli Demokratik Devrim Çizgisi",
         "color": "#003049",
         "fullLabel": "Proleter Devrimci Aydınlık (PDA)\n(1970)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "",
+        "isRoot": true
       }
     },
     {
@@ -1285,7 +1293,7 @@
         "crossLink": "TİİKP/Aydınlık Geleneği",
         "color": "#003049",
         "fullLabel": "Türkiye İhtilalci İşçi ve Köylü Partisi (TİİKP)\n(1971)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_%C4%B0htilalci_%C4%B0%C5%9F%C3%A7i_K%C3%B6yl%C3%BC_Partisi"
       }
     },
     {
@@ -1299,7 +1307,8 @@
         "crossLink": "1971 Üç Ana Damardan Biri",
         "color": "#003049",
         "fullLabel": "Türkiye Komünist Partisi / Marksist Leninist (TKP-ML)\n(1972)",
-        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Kom%C3%BCnist_Partisi/Marksist-Leninist"
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Kom%C3%BCnist_Partisi/Marksist-Leninist",
+        "isRoot": true
       }
     },
     {
@@ -1313,7 +1322,7 @@
         "crossLink": "TKP-ML İçi Ayrışma -> MLKP'ye Katıldı",
         "color": "#003049",
         "fullLabel": "Halkın Birliği (TKP-ML Hareketi)\n(1976)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/TKP/ML_Hareketi"
       }
     },
     {
@@ -1327,7 +1336,7 @@
         "crossLink": "TKP-ML Ana Gövde",
         "color": "#003049",
         "fullLabel": "TKP-ML 1. Konferansı\n(1978)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/TKP/ML_Hareketi"
       }
     },
     {
@@ -1341,7 +1350,7 @@
         "crossLink": "TKP-ML Ana Gövde",
         "color": "#003049",
         "fullLabel": "TKP-ML 2. Konferansı\n(1981)",
-        "wikipediaUrl": ""
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/TKP/ML_Hareketi"
       }
     },
     {
@@ -1473,15 +1482,15 @@
     {
       "data": {
         "id": "maoist-komünist-parti-mkp",
-        "label": "Maoist Komünist Parti (MKP)",
+        "label": "Maoist Komünist Partisi (MKP)",
         "year": "2002",
-        "desc": "TKP(ML) kanadının adını Maoist Komünist Parti yapması.",
+        "desc": "TKP(ML) kanadının adını Maoist Komünist Partisi yapması.",
         "period": "2000'ler",
         "group": "TKP-ML ve Türevleri",
         "crossLink": "TKP-ML Kökenli Parti",
         "color": "#003049",
-        "fullLabel": "Maoist Komünist Parti (MKP)\n(2002)",
-        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Maoist_Kom%C3%BCnist_Parti"
+        "fullLabel": "Maoist Komünist Partisi (MKP)\n(2002)",
+        "wikipediaUrl": "https://tr.wikipedia.org/wiki/Maoist_Kom%C3%BCnist_Partisi"
       }
     },
     {

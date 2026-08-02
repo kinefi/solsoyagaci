@@ -7,11 +7,11 @@ export default function DataTable({ nodes, selectedGroups, setSelectedNode, onCl
   // Sadece seçili gruplara ait ve arama terimine uyan düğümleri filtrele
   const filteredNodes = nodes.filter((node) => {
     const inGroup = selectedGroups.includes(node.data.group);
-    const matchesSearch = 
+    const matchesSearch =
       node.data.label.toLowerCase().includes(tableSearch.toLowerCase()) ||
       (node.data.year && node.data.year.includes(tableSearch)) ||
       (node.data.group && node.data.group.toLowerCase().includes(tableSearch.toLowerCase()));
-    
+
     return inGroup && matchesSearch;
   });
 
@@ -59,7 +59,10 @@ export default function DataTable({ nodes, selectedGroups, setSelectedNode, onCl
               filteredNodes.map((node) => (
                 <tr key={node.data.id} className="hover:bg-slate-800/40 transition">
                   <td className="py-3 px-4 font-medium text-slate-200">
-                    {node.data.label}
+                    {node.data.wikipediaUrl ?
+                      <a href={node.data.wikipediaUrl} target="_blank" rel="noopener noreferrer">
+                        {node.data.label}
+                      </a> : <>{node.data.label}</>}
                     {node.data.isRoot && (
                       <span className="ml-2 text-[10px] bg-red-500/20 text-red-400 px-2 py-0.5 rounded-full border border-red-500/30">
                         Kök

@@ -2,7 +2,6 @@ import { useState, useRef, useEffect } from 'react';
 import CytoscapeComponent from 'react-cytoscapejs';
 import cytoscape from 'cytoscape';
 import dagre from 'cytoscape-dagre';
-import graphData from './data.json';
 import { Maximize2 } from 'lucide-react';
 
 import Legend from './components/Legend';
@@ -13,6 +12,10 @@ import { dagreLayout, cytoscapeStyle } from './config/graphConfig';
 cytoscape.use(dagre);
 
 export default function App() {
+  // Veriyi ve yüklenme durumunu state'e taşıyoruz
+  const [graphData, setGraphData] = useState({ nodes: [], edges: [] });
+  const [loading, setLoading] = useState(true);
+
   const [selectedNode, setSelectedNode] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -24,6 +27,23 @@ export default function App() {
   ]);
 
   const cyRef = useRef(null);
+
+  // JSON verisini public klasöründen fetch ile çekiyoruz
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data.json`)
+      .then((res) => {
+        if (!res.ok) throw new Error('Veri yüklenirken hata oluştu.');
+        return res.json();
+      })
+      .then((data) => {
+        setGraphData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error(err);
+        setLoading(false);
+      });
+  }, []);
 
   // Filtreleme Mantığı
   const activeNodes = graphData.nodes.filter((node) => selectedGroups.includes(node.data.group));
@@ -81,6 +101,14 @@ export default function App() {
       }
     }
   };
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center h-screen w-screen bg-slate-900 text-slate-100 font-sans">
+        <div className="text-lg font-medium animate-pulse">Soyağacı yükleniyor...</div>
+      </div>
+    );
+  }
 
   return (
     <div className="relative h-screen w-screen bg-slate-900 text-slate-100 font-sans overflow-hidden">

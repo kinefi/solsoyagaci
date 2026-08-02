@@ -46,6 +46,7 @@ pnpm dev
 ├── public
 │   ├── favicon.svg
 │   └── icons.svg
+|   └── data.json
 ├── README.md
 ├── src
 │   ├── App.jsx          # Ana yönetim bileşeni
@@ -55,7 +56,6 @@ pnpm dev
 │   │   └── SearchBar.jsx   # Üst arama çubuğu
 │   ├── config
 │   │   └── graphConfig.js  # Harita stil ve layout ayarları
-│   ├── data.json        # Tarihsel ağ verileri
 │   ├── index.css        # Tailwind CSS importları
 │   └── main.jsx         # React giriş noktası
 └── vite.config.js

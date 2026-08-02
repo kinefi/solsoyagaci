@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(), // <-- Tailwind v4 eklentisi
+    tailwindcss(),
   ],
-  base: './', // GitHub Pages için
+  base: './solsoyagaci',
 })

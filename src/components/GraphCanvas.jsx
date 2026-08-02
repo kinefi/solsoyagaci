@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import CytoscapeComponent from 'react-cytoscapejs';
 import cytoscape from 'cytoscape';
 import dagre from 'cytoscape-dagre';
@@ -12,6 +12,23 @@ cytoscape.use(cola);
 
 export default function GraphCanvas({ filteredGraphData, selectedGroups, selectedLayout, setSelectedNode, setIsDropdownOpen, cyRef }) {
   
+  // Cytoscape'in çakışmasını önlemek için veriyi doğru formata dönüştürüyoruz
+  const formattedElements = useMemo(() => {
+    if (!filteredGraphData) return [];
+
+    const nodes = (filteredGraphData.nodes || []).map(node => ({
+      group: 'nodes',
+      data: node
+    }));
+
+    const edges = (filteredGraphData.edges || []).map(edge => ({
+      group: 'edges',
+      data: edge
+    }));
+
+    return [...nodes, ...edges];
+  }, [filteredGraphData]);
+
   useEffect(() => {
     if (cyRef.current) {
       const cy = cyRef.current;
@@ -28,13 +45,13 @@ export default function GraphCanvas({ filteredGraphData, selectedGroups, selecte
         }, 50);
       });
     }
-  }, [selectedGroups, selectedLayout]);
+  }, [selectedGroups, selectedLayout, cyRef]);
 
   return (
     <div className="w-full h-full">
       <CytoscapeComponent
         key={`${selectedGroups.join('-')}-${selectedLayout}`}
-        elements={CytoscapeComponent.normalizeElements(filteredGraphData)}
+        elements={formattedElements}
         style={{ width: '100%', height: '100%' }}
         layout={layouts[selectedLayout] || layouts.dagre}
         stylesheet={cytoscapeStyle}

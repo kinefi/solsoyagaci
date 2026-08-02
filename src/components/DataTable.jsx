@@ -6,11 +6,11 @@ export default function DataTable({ nodes, selectedGroups, setSelectedNode, onCl
 
   // Sadece seçili gruplara ait ve arama terimine uyan düğümleri filtrele
   const filteredNodes = nodes.filter((node) => {
-    const inGroup = selectedGroups.includes(node.data.group);
+    const inGroup = selectedGroups.includes(node.group);
     const matchesSearch =
-      node.data.label.toLowerCase().includes(tableSearch.toLowerCase()) ||
-      (node.data.year && node.data.year.includes(tableSearch)) ||
-      (node.data.group && node.data.group.toLowerCase().includes(tableSearch.toLowerCase()));
+      node.label.toLowerCase().includes(tableSearch.toLowerCase()) ||
+      (node.year && node.year.includes(tableSearch)) ||
+      (node.group && node.group.toLowerCase().includes(tableSearch.toLowerCase()));
 
     return inGroup && matchesSearch;
   });
@@ -57,24 +57,24 @@ export default function DataTable({ nodes, selectedGroups, setSelectedNode, onCl
           <tbody className="divide-y divide-slate-800 text-sm">
             {filteredNodes.length > 0 ? (
               filteredNodes.map((node) => (
-                <tr key={node.data.id} className="hover:bg-slate-800/40 transition">
+                <tr key={node.id} className="hover:bg-slate-800/40 transition">
                   <td className="py-3 px-4 font-medium text-slate-200">
-                    {node.data.wikipediaUrl ?
-                      <a href={node.data.wikipediaUrl} target="_blank" rel="noopener noreferrer">
-                        {node.data.label}
-                      </a> : <>{node.data.label}</>}
-                    {node.data.isRoot && (
+                    {node.wikipediaUrl ?
+                      <a href={node.wikipediaUrl} target="_blank" rel="noopener noreferrer">
+                        {node.label}
+                      </a> : <>{node.label}</>}
+                    {node.isRoot && (
                       <span className="ml-2 text-[10px] bg-red-500/20 text-red-400 px-2 py-0.5 rounded-full border border-red-500/30">
                         Kök
                       </span>
                     )}
                   </td>
-                  <td className="py-3 px-4 text-slate-400 text-xs">{node.data.group}</td>
-                  <td className="py-3 px-4 text-slate-400 text-xs">{node.data.year || '-'}</td>
+                  <td className="py-3 px-4 text-slate-400 text-xs">{node.group}</td>
+                  <td className="py-3 px-4 text-slate-400 text-xs">{node.year || '-'}</td>
                   <td className="py-3 px-4 text-right">
                     <button
                       onClick={() => {
-                        setSelectedNode(node.data);
+                        setSelectedNode(node);
                         onCloseToMap(); // Haritaya dönüp detay panelini açar
                       }}
                       className="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 px-3 py-1.5 rounded-lg border border-slate-700 transition cursor-pointer"

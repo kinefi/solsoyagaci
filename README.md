@@ -61,7 +61,6 @@ pnpm dev
 │   ├── components
 │   │   ├── DataTable.jsx   # Filtrelenebilir ve aranabilir tablo görünümü
 │   │   ├── DetailPanel.jsx # Sağ bilgi paneli
-│   │   ├── GitHubIcon.jsx  # GitHub simgesi
 │   │   ├── GraphCanvas.jsx # Cytoscape tuval bileşeni ve sığdırma mantığı
 │   │   ├── Legend.jsx      # Sol lejant, filtreler, layout seçimi ve kaynakça
 │   │   └── SearchBar.jsx   # Üst arama çubuğu

@@ -1,8 +1,7 @@
 import { useState, useEffect, lazy, Suspense, useRef } from 'react';
 import { Maximize2 } from 'lucide-react';
 
-import Legend from './components/Legend';
-import SearchBar from './components/SearchBar';
+import ControlPanel from './components/ControlPanel';
 import DetailPanel from './components/DetailPanel';
 import DataTable from './components/DataTable';
 
@@ -43,18 +42,18 @@ export default function App() {
       });
   }, []);
 
-  const activeNodes = graphData.nodes.filter((node) => selectedGroups.includes(node.data.group));
-  const activeNodeIds = new Set(activeNodes.map((n) => n.data.id));
+  const activeNodes = graphData.nodes.filter((node) => selectedGroups.includes(node.group));
+  const activeNodeIds = new Set(activeNodes.map((n) => n.id));
   const activeEdges = graphData.edges.filter(
-    (edge) => activeNodeIds.has(edge.data.source) && activeNodeIds.has(edge.data.target)
+    (edge) => activeNodeIds.has(edge.source) && activeNodeIds.has(edge.target)
   );
 
   const filteredGraphData = { nodes: activeNodes, edges: activeEdges };
 
   const filteredSearchNodes = activeNodes.filter((node) => {
     if (!searchTerm.trim()) return false;
-    const labelMatch = node.data.label.toLowerCase().includes(searchTerm.toLowerCase());
-    const yearMatch = node.data.year ? node.data.year.includes(searchTerm) : false;
+    const labelMatch = node.label.toLowerCase().includes(searchTerm.toLowerCase());
+    const yearMatch = node.year ? node.year.includes(searchTerm) : false;
     return labelMatch || yearMatch;
   });
 
@@ -100,67 +99,65 @@ export default function App() {
     );
   }
 
-return (
-  <div className="relative h-screen w-screen bg-slate-900 text-slate-100 font-sans overflow-hidden">
-    <Legend 
-      selectedGroups={selectedGroups} 
-      toggleGroup={toggleGroup} 
-      selectedLayout={selectedLayout}
-      setSelectedLayout={setSelectedLayout}
-      viewMode={viewMode}
-      setViewMode={setViewMode}
-    />
+  return (
+    <div className="relative h-screen w-screen bg-slate-900 text-slate-100 font-sans overflow-hidden">
+<ControlPanel 
+  searchTerm={searchTerm}
+  setSearchTerm={setSearchTerm}
+  isDropdownOpen={isDropdownOpen}
+  setIsDropdownOpen={setIsDropdownOpen}
+  searchResults={filteredSearchNodes}
+  onSelectNode={handleSelectSearchResult}
+  selectedGroups={selectedGroups}
+  setSelectedGroups={setSelectedGroups}
+  toggleGroup={toggleGroup}            
+  selectedLayout={selectedLayout}
+  setSelectedLayout={setSelectedLayout}
+  viewMode={viewMode}
+  setViewMode={setViewMode}
+/>
 
-    <SearchBar
-      searchTerm={searchTerm}
-      setSearchTerm={setSearchTerm}
-      isDropdownOpen={isDropdownOpen}
-      setIsDropdownOpen={setIsDropdownOpen}
-      filteredSearchNodes={filteredSearchNodes}
-      handleSelectSearchResult={handleSelectSearchResult}
-    />
+      {/* Eğer mod tablo ise DataTable göster, değilse GraphCanvas */}
+      {viewMode === 'table' ? (
+        <DataTable
+          nodes={graphData.nodes}
+          selectedGroups={selectedGroups}
+          setSelectedNode={setSelectedNode}
+          onCloseToMap={() => setViewMode('map')}
+        />
+      ) : (
+        <>
+          <div className="absolute bottom-6 right-6 z-10 flex gap-2">
+            <button
+              onClick={handleFitAll}
+              className="flex items-center gap-2.5 bg-slate-800/90 hover:bg-slate-700 text-slate-100 px-5 py-3 rounded-2xl border border-slate-700 shadow-xl backdrop-blur text-sm font-semibold transition duration-150 active:scale-95 cursor-pointer"
+              title="Tüm haritayı ekrana sığdır"
+            >
+              <Maximize2 size={18} />
+              Tümünü Sığdır
+            </button>
+          </div>
 
-    {/* Eğer mod tablo ise DataTable göster, değilse GraphCanvas */}
-    {viewMode === 'table' ? (
-      <DataTable 
-        nodes={graphData.nodes}
-        selectedGroups={selectedGroups}
-        setSelectedNode={setSelectedNode}
-        onCloseToMap={() => setViewMode('map')}
-      />
-    ) : (
-      <>
-        <div className="absolute bottom-6 right-6 z-10 flex gap-2">
-          <button
-            onClick={handleFitAll}
-            className="flex items-center gap-2.5 bg-slate-800/90 hover:bg-slate-700 text-slate-100 px-5 py-3 rounded-2xl border border-slate-700 shadow-xl backdrop-blur text-sm font-semibold transition duration-150 active:scale-95 cursor-pointer"
-            title="Tüm haritayı ekrana sığdır"
+          <Suspense
+            fallback={
+              <div className="flex items-center justify-center h-full w-full bg-slate-900 text-slate-400">
+                Harita yükleniyor...
+              </div>
+            }
           >
-            <Maximize2 size={18} />
-            Tümünü Sığdır
-          </button>
-        </div>
+            <GraphCanvas
+              filteredGraphData={filteredGraphData}
+              selectedGroups={selectedGroups}
+              selectedLayout={selectedLayout}
+              setSelectedNode={setSelectedNode}
+              setIsDropdownOpen={setIsDropdownOpen}
+              cyRef={cyRef}
+            />
+          </Suspense>
+        </>
+      )}
 
-        <Suspense
-          fallback={
-            <div className="flex items-center justify-center h-full w-full bg-slate-900 text-slate-400">
-              Harita yükleniyor...
-            </div>
-          }
-        >
-          <GraphCanvas
-            filteredGraphData={filteredGraphData}
-            selectedGroups={selectedGroups}
-            selectedLayout={selectedLayout}
-            setSelectedNode={setSelectedNode}
-            setIsDropdownOpen={setIsDropdownOpen}
-            cyRef={cyRef}
-          />
-        </Suspense>
-      </>
-    )}
-
-    <DetailPanel selectedNode={selectedNode} setSelectedNode={setSelectedNode} />
-  </div>
-);
+      <DetailPanel selectedNode={selectedNode} setSelectedNode={setSelectedNode} />
+    </div>
+  );
 }

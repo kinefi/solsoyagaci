@@ -1,18 +1,50 @@
+import cytoscape from 'cytoscape';
+import dagre from 'cytoscape-dagre';
+import fcose from 'cytoscape-fcose';
+import cola from 'cytoscape-cola';
+
+cytoscape.use(dagre);
+cytoscape.use(fcose);
+cytoscape.use(cola);
+
+export const layouts = {
+  dagre: {
+    name: 'dagre',
+    rankDir: 'TB',
+    nodeSep: 50,
+    rankSep: 70,
+  },
+  breadthfirst: {
+    name: 'breadthfirst',
+    directed: true,
+    padding: 30,
+  },
+  fcose: {
+    name: 'fcose',
+    quality: 'default',
+    nodeRepulsion: 4500,
+    idealEdgeLength: 50,
+  },
+  cola: {
+    name: 'cola',
+    maxSimulationTime: 1000,
+  },
+  concentric: {
+    name: 'concentric',
+    padding: 30,
+  },
+  grid: {
+    name: 'grid',
+    padding: 30,
+  }
+};
+
 export const groupsList = [
   { name: 'TKP ve Türevleri', label: 'TKP Geleneği', color: '#E63946' },
   { name: 'THKP-C ve Türevleri', label: 'THKP-C Geleneği', color: '#D62828' },
   { name: 'THKO ve Türevleri', label: 'THKO Geleneği', color: '#F77F00' },
   { name: 'TKP-ML ve Türevleri', label: 'TKP-ML Geleneği', color: '#003049' }
 ];
-
-export const dagreLayout = {
-  name: 'dagre',
-  rankDir: 'LR',
-  align: 'DL',
-  nodeSep: 75,
-  rankSep: 180,
-  animate: true
-};
 
 export const cytoscapeStyle = [
   {

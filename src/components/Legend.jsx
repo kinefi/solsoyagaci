@@ -1,8 +1,8 @@
 import { Scale } from 'lucide-react';
-import { groupsList } from '../config/graphConfig';
+import { groupsList, layouts } from '../config/graphConfig';
 import { GithubIcon } from './GithubIcon';
 
-export default function Legend({ selectedGroups, toggleGroup }) {
+export default function Legend({ selectedGroups, toggleGroup, selectedLayout, setSelectedLayout }) {
   return (
     <div className="absolute top-5 left-5 z-10 bg-slate-800/90 backdrop-blur p-5 rounded-2xl border border-slate-700 shadow-xl max-w-md">
       <h1 className="text-2xl font-extrabold text-red-500">Türkiye Devrimci Hareketi</h1>
@@ -17,11 +17,10 @@ export default function Legend({ selectedGroups, toggleGroup }) {
               <button
                 key={g.name}
                 onClick={() => toggleGroup(g.name)}
-                className={`flex items-center gap-2 px-2.5 py-1.5 rounded-lg border transition cursor-pointer text-left ${
-                  isSelected
+                className={`flex items-center gap-2 px-2.5 py-1.5 rounded-lg border transition cursor-pointer text-left ${isSelected
                     ? 'bg-slate-700/80 border-slate-500 text-slate-100 shadow-sm'
                     : 'bg-slate-900/50 border-slate-800 text-slate-500 line-through opacity-50'
-                }`}
+                  }`}
               >
                 <span
                   className={`w-3.5 h-3.5 rounded-full shrink-0 transition-opacity ${isSelected ? 'opacity-100' : 'opacity-30'}`}
@@ -33,8 +32,22 @@ export default function Legend({ selectedGroups, toggleGroup }) {
           })}
         </div>
       </div>
-
       <div className="mt-4 pt-3 border-t border-slate-700/60 flex items-center justify-between gap-2">
+        <span className="text-xs text-slate-400 font-medium">Görünüm Düzeni:</span>
+        <select
+          value={selectedLayout}
+          onChange={(e) => setSelectedLayout(e.target.value)}
+          className="bg-slate-900 text-slate-200 text-xs px-2.5 py-1.5 rounded-lg border border-slate-700 focus:outline-none cursor-pointer"
+        >
+          <option value="dagre">Hiyerarşik Akış (Dagre)</option>
+          <option value="breadthfirst">Ağaç Şeması (Tree)</option>
+          <option value="fcose">Organik Kümeler (fCose)</option>
+          <option value="cola">Fiziksel Ağ (Cola)</option>
+          <option value="concentric">Çembersel (Concentric)</option>
+          <option value="grid">Matris (Grid)</option>
+        </select>
+      </div>
+      <div className="mt-3 pt-3 border-t border-slate-700/60 flex items-center justify-between gap-2">
         <a
           href="https://github.com/kinefi/solsoyagaci"
           target="_blank"
@@ -54,7 +67,6 @@ export default function Legend({ selectedGroups, toggleGroup }) {
           <Scale size={13} />
           <span>Lisans: Apache-2.0</span>
         </a>
-
       </div>
     </div>
   );

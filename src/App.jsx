@@ -1,11 +1,10 @@
-import { useState, useEffect, lazy, Suspense } from 'react';
+import { useState, useEffect, lazy, Suspense, useRef } from 'react';
 import { Maximize2 } from 'lucide-react';
 
 import Legend from './components/Legend';
 import SearchBar from './components/SearchBar';
 import DetailPanel from './components/DetailPanel';
 
-// Cytoscape içeren bileşeni kod bölme (code-splitting) ile çağırıyoruz
 const GraphCanvas = lazy(() => import('./components/GraphCanvas'));
 
 export default function App() {
@@ -21,8 +20,11 @@ export default function App() {
     'THKO ve Türevleri',
     'TKP-ML ve Türevleri'
   ]);
+  const [selectedLayout, setSelectedLayout] = useState('dagre');
 
-  // JSON verisini public klasöründen fetch ile çekiyoruz
+  // Cytoscape referansını App seviyesinde tutuyoruz ki Sığdır butonu erişebilsin
+  const cyRef = useRef(null);
+
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data.json`)
       .then((res) => {
@@ -39,7 +41,6 @@ export default function App() {
       });
   }, []);
 
-  // Filtreleme Mantığı
   const activeNodes = graphData.nodes.filter((node) => selectedGroups.includes(node.data.group));
   const activeNodeIds = new Set(activeNodes.map((n) => n.data.id));
   const activeEdges = graphData.edges.filter(
@@ -63,14 +64,30 @@ export default function App() {
     }
   };
 
+  // Sığdır Butonu Fonksiyonu
   const handleFitAll = () => {
-    // Eğer harita ref'ine ihtiyaç duyulursa GraphCanvas içinde yönetilebilir
+    if (cyRef.current) {
+      cyRef.current.animate({ fit: { padding: 40 }, duration: 400 });
+    }
   };
 
   const handleSelectSearchResult = (nodeData) => {
     setSearchTerm('');
     setIsDropdownOpen(false);
     setSelectedNode(nodeData);
+
+    if (cyRef.current) {
+      const targetCyNode = cyRef.current.getElementById(nodeData.id);
+      if (targetCyNode && targetCyNode.length > 0) {
+        cyRef.current.nodes().unselect();
+        targetCyNode.select();
+        cyRef.current.animate({
+          center: { eles: targetCyNode },
+          zoom: 1.2,
+          duration: 500
+        });
+      }
+    }
   };
 
   if (loading) {
@@ -83,7 +100,12 @@ export default function App() {
 
   return (
     <div className="relative h-screen w-screen bg-slate-900 text-slate-100 font-sans overflow-hidden">
-      <Legend selectedGroups={selectedGroups} toggleGroup={toggleGroup} />
+      <Legend 
+        selectedGroups={selectedGroups} 
+        toggleGroup={toggleGroup} 
+        selectedLayout={selectedLayout}
+        setSelectedLayout={setSelectedLayout}
+      />
 
       <SearchBar
         searchTerm={searchTerm}
@@ -94,7 +116,18 @@ export default function App() {
         handleSelectSearchResult={handleSelectSearchResult}
       />
 
-      {/* Harita Bileşeni (Lazy Loaded) */}
+      {/* SAĞ ALTTAKİ "TÜMÜNÜ SIĞDIR" BUTONU GERİ GELDİ */}
+      <div className="absolute bottom-6 right-6 z-10 flex gap-2">
+        <button
+          onClick={handleFitAll}
+          className="flex items-center gap-2.5 bg-slate-800/90 hover:bg-slate-700 text-slate-100 px-5 py-3 rounded-2xl border border-slate-700 shadow-xl backdrop-blur text-sm font-semibold transition duration-150 active:scale-95 cursor-pointer"
+          title="Tüm haritayı ekrana sığdır"
+        >
+          <Maximize2 size={18} />
+          Tümünü Sığdır
+        </button>
+      </div>
+
       <Suspense
         fallback={
           <div className="flex items-center justify-center h-full w-full bg-slate-900 text-slate-400">
@@ -105,8 +138,10 @@ export default function App() {
         <GraphCanvas
           filteredGraphData={filteredGraphData}
           selectedGroups={selectedGroups}
+          selectedLayout={selectedLayout}
           setSelectedNode={setSelectedNode}
           setIsDropdownOpen={setIsDropdownOpen}
+          cyRef={cyRef} // cyRef'i alt bileşene aktarıyoruz
         />
       </Suspense>
 

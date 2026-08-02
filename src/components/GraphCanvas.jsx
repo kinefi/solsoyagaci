@@ -1,77 +1,123 @@
-import { useEffect, useMemo } from 'react';
-import CytoscapeComponent from 'react-cytoscapejs';
+import { useEffect, useRef } from 'react';
 import cytoscape from 'cytoscape';
 import dagre from 'cytoscape-dagre';
 import fcose from 'cytoscape-fcose';
 import cola from 'cytoscape-cola';
-import { layouts, cytoscapeStyle } from '../config/graphConfig';
+import { groupsList } from '../config/graphConfig';
 
 cytoscape.use(dagre);
 cytoscape.use(fcose);
 cytoscape.use(cola);
 
-export default function GraphCanvas({ filteredGraphData, selectedGroups, selectedLayout, setSelectedNode, setIsDropdownOpen, cyRef }) {
-  
-  // Cytoscape'in çakışmasını önlemek için veriyi doğru formata dönüştürüyoruz
-  const formattedElements = useMemo(() => {
-    if (!filteredGraphData) return [];
+export default function GraphCanvas({
+  filteredGraphData,
+  selectedLayout,
+  setSelectedNode,
+  setIsDropdownOpen,
+  cyRef
+}) {
+  const containerRef = useRef(null);
 
-    const nodes = (filteredGraphData.nodes || []).map(node => ({
-      group: 'nodes',
-      data: node
-    }));
-
-    const edges = (filteredGraphData.edges || []).map(edge => ({
-      group: 'edges',
-      data: edge
-    }));
-
-    return [...nodes, ...edges];
-  }, [filteredGraphData]);
+  const groupColorMap = groupsList.reduce((acc, g) => {
+    acc[g.name] = g.color;
+    return acc;
+  }, {});
 
   useEffect(() => {
-    if (cyRef.current) {
-      const cy = cyRef.current;
-      const currentLayoutConfig = layouts[selectedLayout] || layouts.dagre;
+    if (!containerRef.current) return;
 
-      // Layout'u çalıştır
-      const layout = cy.layout(currentLayoutConfig);
-      layout.run();
+    const nodesWithColors = filteredGraphData.nodes.map((node) => ({
+      data: {
+        ...node,
+        nodeColor: groupColorMap[node.group] || '#94a3b8'
+      }
+    }));
 
-      // Harita ve yerleşim tamamen oturduktan sonra sığdırma işlemini garantiliyoruz
-      cy.ready(() => {
-        setTimeout(() => {
-          cy.fit(undefined, 60); // 60px kenar boşluğu ile tam ortala ve sığdır
-        }, 50);
-      });
-    }
-  }, [selectedGroups, selectedLayout, cyRef]);
+    const edgesWithColors = filteredGraphData.edges.map((edge) => {
+      const sourceNode = filteredGraphData.nodes.find((n) => n.id === edge.source);
+      const edgeColor = sourceNode ? groupColorMap[sourceNode.group] : '#475569';
+      return {
+        data: {
+          ...edge,
+          edgeColor
+        }
+      };
+    });
 
-  return (
-    <div className="w-full h-full">
-      <CytoscapeComponent
-        key={`${selectedGroups.join('-')}-${selectedLayout}`}
-        elements={formattedElements}
-        style={{ width: '100%', height: '100%' }}
-        layout={layouts[selectedLayout] || layouts.dagre}
-        stylesheet={cytoscapeStyle}
-        cy={(cy) => {
-          cyRef.current = cy;
-          
-          // İlk açılışta da hazır olur olmaz sığdır
-          cy.ready(() => {
-            cy.fit(undefined, 60);
-          });
+    const cy = cytoscape({
+      container: containerRef.current,
+      elements: [...nodesWithColors, ...edgesWithColors],
+      style: [
+        {
+          selector: 'node',
+          style: {
+            label: 'data(label)',
+            'background-color': 'data(nodeColor)',
+            color: '#ffffff',
+            'font-size': '11px',
+            'font-weight': '700',
+            'text-valign': 'center',
+            'text-halign': 'center',
+            'text-wrap': 'wrap',
+            'text-max-width': '70px',
+            
+            // Yuvarlak düğüm ve yazıyı rahatça içine alan boyut/padding ayarları
+            shape: 'ellipse',
+            width: '90px',
+            height: '90px',
+            padding: '15px',
+            'border-width': '2px',
+            'border-color': '#1e293b',
+            'overlay-opacity': 0
+          }
+        },
+        {
+          selector: 'node:selected',
+          style: {
+            'border-width': '4px',
+            'border-color': '#38bdf8',
+            'shadow-blur': 18,
+            'shadow-color': '#38bdf8',
+            'shadow-opacity': 0.8
+          }
+        },
+        {
+          selector: 'edge',
+          style: {
+            width: 2,
+            'line-color': 'data(edgeColor)',
+            'target-arrow-color': 'data(edgeColor)',
+            'target-arrow-shape': 'triangle',
+            'curve-style': 'bezier',
+            opacity: 0.75
+          }
+        }
+      ],
+      layout: { name: selectedLayout }
+    });
 
-          cy.on('tap', 'node', (evt) => setSelectedNode(evt.target.data()));
-          cy.on('tap', (evt) => {
-            if (evt.target === cy) {
-              setSelectedNode(null);
-              setIsDropdownOpen(false);
-            }
-          });
-        }}
-      />
-    </div>
-  );
+    cyRef.current = cy;
+
+    const handleTapNode = (evt) => {
+      setSelectedNode(evt.target.data());
+    };
+
+    const handleTapBg = (evt) => {
+      if (evt.target === cy) {
+        setSelectedNode(null);
+        if (setIsDropdownOpen) setIsDropdownOpen(false);
+      }
+    };
+
+    cy.on('tap', 'node', handleTapNode);
+    cy.on('tap', handleTapBg);
+
+    return () => {
+      cy.off('tap', 'node', handleTapNode);
+      cy.off('tap', handleTapBg);
+      cy.destroy();
+    };
+  }, [filteredGraphData, selectedLayout, setSelectedNode, setIsDropdownOpen, cyRef]);
+
+  return <div ref={containerRef} className="w-full h-full" />;
 }

@@ -1,48 +1,49 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
-export function useDraggable(storageKey = 'controls_position') {
-    const [position, setPosition] = useState(() => {
-        const saved = localStorage.getItem(storageKey);
-        return saved ? JSON.parse(saved) : { x: 20, y: 20 };
-    });
+export function useDraggable(key, defaultPos = { x: 20, y: 20 }) {
+  const [position, setPosition] = useState(() => {
+    const saved = localStorage.getItem(key);
+    return saved ? JSON.parse(saved) : defaultPos;
+  });
+  const [isDragging, setIsDragging] = useState(false);
+  const dragStart = useRef({ x: 0, y: 0 });
 
-    const [isDragging, setIsDragging] = useState(false);
-    const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
+  const handleMouseDown = (e) => {
+    // Sadece drag-handle sınıflı veya belirtilen alanlarda sürüklemeyi başlat
+    if (e.target.closest('.drag-handle')) {
+      setIsDragging(true);
+      dragStart.current = {
+        x: e.clientX - position.x,
+        y: e.clientY - position.y
+      };
+    }
+  };
 
-    const handleMouseDown = (e) => {
-        // Sadece header veya belirlenen tutamağa tıklanınca sürüklensin
-        if (e.target.closest('.drag-handle')) {
-            setIsDragging(true);
-            setDragOffset({
-                x: e.clientX - position.x,
-                y: e.clientY - position.y
-            });
-        }
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      if (!isDragging) return;
+      const newX = Math.max(0, Math.min(window.innerWidth - 100, e.clientX - dragStart.current.x));
+      const newY = Math.max(0, Math.min(window.innerHeight - 50, e.clientY - dragStart.current.y));
+      setPosition({ x: newX, y: newY });
     };
 
-    useEffect(() => {
-        const handleMouseMove = (e) => {
-            if (!isDragging) return;
-            const newX = Math.max(10, Math.min(window.innerWidth - 300, e.clientX - dragOffset.x));
-            const newY = Math.max(10, Math.min(window.innerHeight - 150, e.clientY - dragOffset.y));
+    const handleMouseUp = () => {
+      if (isDragging) {
+        setIsDragging(false);
+        localStorage.setItem(key, JSON.stringify(position));
+      }
+    };
 
-            const newPos = { x: newX, y: newY };
-            setPosition(newPos);
-            localStorage.setItem(storageKey, JSON.stringify(newPos));
-        };
+    if (isDragging) {
+      window.addEventListener('mousemove', handleMouseMove);
+      window.addEventListener('mouseup', handleMouseUp);
+    }
 
-        const handleMouseUp = () => setIsDragging(false);
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mouseup', handleMouseUp);
+    };
+  }, [isDragging, position, key]);
 
-        if (isDragging) {
-            window.addEventListener('mousemove', handleMouseMove);
-            window.addEventListener('mouseup', handleMouseUp);
-        }
-
-        return () => {
-            window.removeEventListener('mousemove', handleMouseMove);
-            window.removeEventListener('mouseup', handleMouseUp);
-        };
-    }, [isDragging, dragOffset, storageKey]);
-
-    return { position, handleMouseDown, isDragging };
+  return { position, handleMouseDown, isDragging };
 }

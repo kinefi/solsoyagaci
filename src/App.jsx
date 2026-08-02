@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense, useRef } from 'react';
+import { useState, useEffect, lazy, Suspense, useRef, useMemo, useCallback } from 'react';
 import { Maximize2 } from 'lucide-react';
 
 import ControlPanel from './components/ControlPanel';
@@ -21,9 +21,8 @@ export default function App() {
     'TKP-ML ve Türevleri'
   ]);
   const [selectedLayout, setSelectedLayout] = useState('dagre');
-  const [viewMode, setViewMode] = useState('map'); // 'map' veya 'table'
+  const [viewMode, setViewMode] = useState('map');
 
-  // Cytoscape referansını App seviyesinde tutuyoruz ki Sığdır butonu erişebilsin
   const cyRef = useRef(null);
 
   useEffect(() => {
@@ -42,37 +41,40 @@ export default function App() {
       });
   }, []);
 
-  const activeNodes = graphData.nodes.filter((node) => selectedGroups.includes(node.group));
-  const activeNodeIds = new Set(activeNodes.map((n) => n.id));
-  const activeEdges = graphData.edges.filter(
-    (edge) => activeNodeIds.has(edge.source) && activeNodeIds.has(edge.target)
-  );
+  // Performance Optimization: Cache active nodes/edges
+  const filteredGraphData = useMemo(() => {
+    const activeNodes = graphData.nodes.filter((node) => selectedGroups.includes(node.group));
+    const activeNodeIds = new Set(activeNodes.map((n) => n.id));
+    const activeEdges = graphData.edges.filter(
+      (edge) => activeNodeIds.has(edge.source) && activeNodeIds.has(edge.target)
+    );
+    return { nodes: activeNodes, edges: activeEdges };
+  }, [graphData, selectedGroups]);
 
-  const filteredGraphData = { nodes: activeNodes, edges: activeEdges };
+  // Performance Optimization: Cache search query results
+  const filteredSearchNodes = useMemo(() => {
+    if (!searchTerm.trim()) return [];
+    const query = searchTerm.toLowerCase();
+    return filteredGraphData.nodes.filter((node) => {
+      const labelMatch = node.label.toLowerCase().includes(query);
+      const yearMatch = node.year ? node.year.includes(searchTerm) : false;
+      return labelMatch || yearMatch;
+    });
+  }, [filteredGraphData.nodes, searchTerm]);
 
-  const filteredSearchNodes = activeNodes.filter((node) => {
-    if (!searchTerm.trim()) return false;
-    const labelMatch = node.label.toLowerCase().includes(searchTerm.toLowerCase());
-    const yearMatch = node.year ? node.year.includes(searchTerm) : false;
-    return labelMatch || yearMatch;
-  });
+  const toggleGroup = useCallback((groupName) => {
+    setSelectedGroups((prev) =>
+      prev.includes(groupName) ? prev.filter((g) => g !== groupName) : [...prev, groupName]
+    );
+  }, []);
 
-  const toggleGroup = (groupName) => {
-    if (selectedGroups.includes(groupName)) {
-      setSelectedGroups(selectedGroups.filter((g) => g !== groupName));
-    } else {
-      setSelectedGroups([...selectedGroups, groupName]);
-    }
-  };
-
-  // Sığdır Butonu Fonksiyonu
-  const handleFitAll = () => {
+  const handleFitAll = useCallback(() => {
     if (cyRef.current) {
       cyRef.current.animate({ fit: { padding: 40 }, duration: 400 });
     }
-  };
+  }, []);
 
-  const handleSelectSearchResult = (nodeData) => {
+  const handleSelectSearchResult = useCallback((nodeData) => {
     setSearchTerm('');
     setIsDropdownOpen(false);
     setSelectedNode(nodeData);
@@ -89,7 +91,7 @@ export default function App() {
         });
       }
     }
-  };
+  }, []);
 
   if (loading) {
     return (
@@ -101,23 +103,22 @@ export default function App() {
 
   return (
     <div className="relative h-screen w-screen bg-slate-900 text-slate-100 font-sans overflow-hidden">
-<ControlPanel 
-  searchTerm={searchTerm}
-  setSearchTerm={setSearchTerm}
-  isDropdownOpen={isDropdownOpen}
-  setIsDropdownOpen={setIsDropdownOpen}
-  searchResults={filteredSearchNodes}
-  onSelectNode={handleSelectSearchResult}
-  selectedGroups={selectedGroups}
-  setSelectedGroups={setSelectedGroups}
-  toggleGroup={toggleGroup}            
-  selectedLayout={selectedLayout}
-  setSelectedLayout={setSelectedLayout}
-  viewMode={viewMode}
-  setViewMode={setViewMode}
-/>
+      <ControlPanel 
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        isDropdownOpen={isDropdownOpen}
+        setIsDropdownOpen={setIsDropdownOpen}
+        searchResults={filteredSearchNodes}
+        onSelectNode={handleSelectSearchResult}
+        selectedGroups={selectedGroups}
+        setSelectedGroups={setSelectedGroups}
+        toggleGroup={toggleGroup}            
+        selectedLayout={selectedLayout}
+        setSelectedLayout={setSelectedLayout}
+        viewMode={viewMode}
+        setViewMode={setViewMode}
+      />
 
-      {/* Eğer mod tablo ise DataTable göster, değilse GraphCanvas */}
       {viewMode === 'table' ? (
         <DataTable
           nodes={graphData.nodes}

@@ -3,6 +3,7 @@
     {
       "id": "türkiye-i̇şçi-ve-çiftçi-fırkası",
       "label": "Türkiye İşçi ve Çiftçi Sosyalist Fırkası",
+      "abbreviation": "TİÇSF",
       "year": "1919",
       "desc": "İstanbul'da Dr. Şefik Hüsnü ve arkadaşlarınca kuruldu.",
       "period": "Erken Dönem (1919-1960)",
@@ -15,6 +16,7 @@
     {
       "id": "türkiye-komünist-partisi-tkp",
       "label": "Türkiye Komünist Partisi (TKP)",
+      "abbreviation": "TKP",
       "year": "1920",
       "desc": "Bakü'de Mustafa Suphi ve yoldaşları tarafından kuruldu.",
       "period": "Erken Dönem (1919-1960)",
@@ -27,6 +29,7 @@
     {
       "id": "türkiye-halk-i̇ştirakiyûn-fırkası",
       "label": "Türkiye Halk İştirakiyûn Fırkası",
+      "abbreviation": "THİF",
       "year": "1920",
       "desc": "Anadolu'da kurulan ilk yasal komünist parti deneyimlerinden biri.",
       "period": "Erken Dönem (1919-1960)",
@@ -39,6 +42,7 @@
     {
       "id": "türkiye-sosyalist-emekçi-ve-köylü-partisi",
       "label": "Türkiye Sosyalist Emekçi ve Köylü Partisi",
+      "abbreviation": "TSEKP",
       "year": "1946",
       "desc": "TSEKP - Dr. Şefik Hüsnü önderliğinde yasal parti denemesi.",
       "period": "Erken Dönem (1919-1960)",
@@ -50,6 +54,7 @@
     {
       "id": "vatan-partisi-1",
       "label": "Vatan Partisi (1954)",
+      "abbreviation": "VP (1954)",
       "year": "1954",
       "desc": "Dr. Hikmet Kıvılcımlı tarafından kuruldu.",
       "period": "Erken Dönem (1919-1960)",
@@ -61,6 +66,7 @@
     {
       "id": "sosyalist-gençlik-örgütü",
       "label": "Sosyalist Gençlik Örgütü",
+      "abbreviation": "SGÖ",
       "year": "1970",
       "desc": "TKP gençlik örgütlenmesi.",
       "period": "Kitleselleşme (1960-1980)",
@@ -72,6 +78,7 @@
     {
       "id": "türkiye-sosyalist-i̇şçi-partisi-tsi̇p",
       "label": "Türkiye Sosyalist İşçi Partisi (TSİP)",
+      "abbreviation": "TSİP",
       "year": "1974",
       "desc": "12 Mart sonrası kurulan ilk yasal sol parti.",
       "period": "Kitleselleşme (1960-1980)",
@@ -83,6 +90,7 @@
     {
       "id": "türkiye-komünist-partisi-birlik",
       "label": "Türkiye Komünist Partisi (Birlik)",
+      "abbreviation": "TKP/B",
       "year": "1975",
       "desc": "TKP içerisindeki muhalif/ayrışan kanat gelişimi.",
       "period": "Kitleselleşme (1960-1980)",
@@ -94,6 +102,7 @@
     {
       "id": "vatan-partisi-2",
       "label": "Vatan Partisi (1975)",
+      "abbreviation": "VP (1975)",
       "year": "1975",
       "desc": "Orhan Aksungur önderliğinde yeniden kurulan Vatan Partisi.",
       "period": "Kitleselleşme (1960-1980)",
@@ -105,6 +114,7 @@
     {
       "id": "sosyalist-vatan-partisi",
       "label": "Sosyalist Vatan Partisi",
+      "abbreviation": "SVP",
       "year": "1979",
       "desc": "Mehmet Özler önderliğinde Kıvılcımlı geleneğinin devamı.",
       "period": "Kitleselleşme (1960-1980)",
@@ -116,6 +126,7 @@
     {
       "id": "tkp---i̇şçinin-sesi",
       "label": "TKP - İşçinin Sesi",
+      "abbreviation": "TKP-İS",
       "year": "1979",
       "desc": "R. Yürükoğlu muhalefeti önderliğindeki ayrışma.",
       "period": "Kitleselleşme (1960-1980)",
@@ -127,6 +138,7 @@
     {
       "id": "tkp---devrimci-kanat",
       "label": "TKP - Devrimci Kanat",
+      "abbreviation": "TKP-DK",
       "year": "1980",
       "desc": "1980'de TKP'den kopan kısa ömürlü yasadışı siyasi parti. TKP içindeki silahlı/radikal atılımı savunan ayrışma.",
       "period": "Kitleselleşme (1960-1980)",
@@ -138,6 +150,7 @@
     {
       "id": "kurtuluş-yolu",
       "label": "Kurtuluş Yolu",
+      "abbreviation": "KY",
       "year": "1984",
       "desc": "TKP-İşçinin Sesi çizgisinden kopan yayın çevresi.",
       "period": "12 Eylül Sonrası (1980-1990)",
@@ -149,6 +162,7 @@
     {
       "id": "türkiye-birleşik-komünist-partisi-tbkp",
       "label": "Türkiye Birleşik Komünist Partisi (TBKP)",
+      "abbreviation": "TBKP",
       "year": "1987",
       "desc": "TKP ile TİP'in (Haydar Kutlu - Nihat Sargın) birleşmesi.",
       "period": "12 Eylül Sonrası (1980-1990)",
@@ -160,6 +174,7 @@
     {
       "id": "16-haziran-hareketi",
       "label": "16 Haziran Hareketi",
+      "abbreviation": "16-HH",
       "year": "1988",
       "desc": "Dr. Hikmet Kıvılcımlı yanlısı silahlı örgütlenme denemesi.",
       "period": "12 Eylül Sonrası (1980-1990)",
@@ -171,6 +186,7 @@
     {
       "id": "tkp---kıvılcım",
       "label": "TKP - Kıvılcım",
+      "abbreviation": "TKP-Kıvılcım",
       "year": "1989",
       "desc": "Dr. Hikmet Kıvılcımlı tezlerini savunan yayın çevresi.",
       "period": "12 Eylül Sonrası (1980-1990)",
@@ -182,6 +198,7 @@
     {
       "id": "10-eylül",
       "label": "10 Eylül",
+      "abbreviation": "10-EylüI",
       "year": "1989",
       "desc": "TKP'nin tasfiyesine karşı TKP'yi yeniden toparlama amaçlı girişim.",
       "period": "12 Eylül Sonrası (1980-1990)",
@@ -193,6 +210,7 @@
     {
       "id": "sosyalist-birlik-partisi-sbp",
       "label": "Sosyalist Birlik Partisi (SBP)",
+      "abbreviation": "SBP",
       "year": "1991",
       "desc": "TBKP, TSİP ve TİP kökenli kadroların katıldığı parti.",
       "period": "Legal Arayışlar (1990-2016)",
@@ -204,6 +222,7 @@
     {
       "id": "türkiye-devrim-partisi-tdp",
       "label": "Türkiye Devrim Partisi (TDP)",
+      "abbreviation": "TDP",
       "year": "1992",
       "desc": "TKP/B (Devrimci Kanat) çizgisinin yeni ismi.",
       "period": "Legal Arayışlar (1990-2016)",
@@ -215,6 +234,7 @@
     {
       "id": "sosyalist-i̇ktidar-partisi-si̇p",
       "label": "Sosyalist İktidar Partisi (SİP)",
+      "abbreviation": "SİP",
       "year": "1993",
       "desc": "STP sonrası Gelenek kadrolarınca kurulan ve 2001'de TKP adını alan parti.",
       "period": "Legal Arayışlar (1990-2016)",
@@ -226,6 +246,7 @@
     {
       "id": "ürün",
       "label": "Ürün",
+      "abbreviation": "Ürün",
       "year": "1996",
       "desc": "12 Eylül öncesi Ürün dergisi geleneğini devam ettiren çevre.",
       "period": "Legal Arayışlar (1990-2016)",
@@ -237,6 +258,7 @@
     {
       "id": "savaş-yolu",
       "label": "Savaş Yolu",
+      "abbreviation": "SY",
       "year": "2002",
       "desc": "Ürün dergisi çevresinden ayrılanlarca kuruldu.",
       "period": "Legal Arayışlar (1990-2016)",
@@ -248,6 +270,7 @@
     {
       "id": "sosyalist-dayanışma-platformu-sodap",
       "label": "Sosyalist Dayanışma Platformu (SODAP)",
+      "abbreviation": "SODAP",
       "year": "2004",
       "desc": "Dr. Hikmet Kıvılcımlı geleneğini ve tezlerini esas alan siyasi platform.",
       "period": "2000'ler ve Legal Partileşme",
@@ -259,6 +282,7 @@
     {
       "id": "halkın-kurtuluş-partisi-hkp",
       "label": "Halkın Kurtuluş Partisi (HKP)",
+      "abbreviation": "HKP",
       "year": "2005",
       "desc": "Dr. Hikmet Kıvılcımlı geleneğini temsil eden yasal parti.",
       "period": "Legal Arayışlar (1990-2016)",
@@ -270,6 +294,7 @@
     {
       "id": "1920-tkp-toplumsal-kurtuluş-partisi",
       "label": "1920 TKP (Toplumsal Kurtuluş Partisi)",
+      "abbreviation": "1920 TKP",
       "year": "2012",
       "desc": "Ürün çevresinin partileşmesiyle kurulan yapı.",
       "period": "Legal Arayışlar (1990-2016)",
@@ -281,6 +306,7 @@
     {
       "id": "komünist-parti-kp",
       "label": "Komünist Parti (KP)",
+      "abbreviation": "KP",
       "year": "2014",
       "desc": "TKP'deki 2014 ayrışması sonrası Kemal Okuyan kanadı.",
       "period": "Legal Arayışlar (1990-2016)",
@@ -292,6 +318,7 @@
     {
       "id": "halkın-komünist-partisi-htkp",
       "label": "Halkın Türkiye Komünist Partisi (HTKP)",
+      "abbreviation": "HTKP",
       "year": "2014",
       "desc": "TKP ayrışmasında Erkan Baş ve arkadaşlarınca kurulan parti.",
       "period": "Legal Arayışlar (1990-2016)",
@@ -303,6 +330,7 @@
     {
       "id": "türkiye-komünist-hareketi-tkh",
       "label": "Türkiye Komünist Hareketi (TKH)",
+      "abbreviation": "TKH",
       "year": "2015",
       "desc": "HTKP ve KP süreçlerinden ayrılan kadrolarca kurulan parti.",
       "period": "Legal Arayışlar (1990-2016)",
@@ -314,6 +342,7 @@
     {
       "id": "türkiye-i̇şçi-partisi-ti̇p",
       "label": "Türkiye İşçi Partisi (TİP)",
+      "abbreviation": "TİP",
       "year": "2017",
       "desc": "HTKP kökenli kadroların TİP adını yeniden partileştirmesi.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -325,6 +354,7 @@
     {
       "id": "toplumcu-kurtuluş-partisi",
       "label": "Toplumcu Kurtuluş Partisi",
+      "abbreviation": "1920 TKP / Toplumcu KP",
       "year": "2020",
       "desc": "1920 TKP'nin adını güncellemesi.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -336,6 +366,7 @@
     {
       "id": "toplumsal-özgürlük-partisi-töp",
       "label": "Toplumsal Özgürlük Partisi (TÖP)",
+      "abbreviation": "TÖP",
       "year": "2020",
       "desc": "TÖP-G (Toplumsal Özgürlük) çevresinin partileşmesi. Kıvılcımlı teorik mirasını benimser.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -347,6 +378,7 @@
     {
       "id": "sosyalist-güç-birliği-sgb",
       "label": "Sosyalist Güç Birliği (SGB)",
+      "abbreviation": "SGB",
       "year": "2022",
       "desc": "TKP, TKH, SOL Parti ve Devrim Hareketi seçme/eylem bloğu.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -358,6 +390,7 @@
     {
       "id": "ti̇p-ve-tkp-seçim-süreçleri",
       "label": "TİP ve TKP Seçim Süreçleri",
+      "abbreviation": "TİP-TKP SEÇİM",
       "year": "2023",
       "desc": "TİP'in TBMM'de 4 milletvekiliyle temsil edilmesi.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -369,6 +402,7 @@
     {
       "id": "güncel-tkp,-ti̇p,-tkh-ve-hkp-faaliyetleri",
       "label": "Güncel TKP, TİP, TKH ve HKP Faaliyetleri",
+      "abbreviation": "GÜNCEL TKP-TİP-TKH-HKP",
       "year": "2024-2026",
       "desc": "Gelenek ve Kıvılcımlı kökenli yapıların güncel mücadelesi.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -380,6 +414,7 @@
     {
       "id": "fikir-kulüpleri-federasyonu-fkf",
       "label": "Fikir Kulüpleri Federasyonu (FKF)",
+      "abbreviation": "FKF",
       "year": "1965",
       "desc": "Öğrenci gençliğin kitlesel örgütü.",
       "period": "Erken ve Hazırlık Dönemi",
@@ -392,6 +427,7 @@
     {
       "id": "devrimci-gençlik-dev-genç",
       "label": "Devrimci Gençlik (Dev-Genç)",
+      "abbreviation": "DEV-GENÇ",
       "year": "1969",
       "desc": "Anti-emperyalist gençlik hareketinin merkezi.",
       "period": "Erken ve Hazırlık Dönemi",
@@ -404,6 +440,7 @@
     {
       "id": "türkiye-halk-kurtuluş-partisi-cephesi-thkp-c",
       "label": "Türkiye Halk Kurtuluş Partisi-Cephesi (THKP-C)",
+      "abbreviation": "THKP-C",
       "year": "1971",
       "desc": "Mahir Çayan ve arkadaşlarınca PASS stratejisiyle kuruldu.",
       "period": "Silahlı Mücadele (1970-1972)",
@@ -416,6 +453,7 @@
     {
       "id": "thkp-c-marksist-leninist-partizan",
       "label": "THKP-C Marksist Leninist (Partizan)",
+      "abbreviation": "THKP-C ML Partizan",
       "year": "1971",
       "desc": "THKP-C içindeki ilk ayrışma hatlarından biri.",
       "period": "Silahlı Mücadele (1970-1972)",
@@ -427,6 +465,7 @@
     {
       "id": "thkp-c-acilciler",
       "label": "THKP-C Acilciler",
+      "abbreviation": "Acilciler",
       "year": "1973",
       "desc": "Mihraç Ural ve Engin Erkiner çevresi.",
       "period": "12 Mart Sonrası Yeniden Yapılanma",
@@ -438,6 +477,7 @@
     {
       "id": "thkp-c-mlspb",
       "label": "THKP-C MLSPB",
+      "abbreviation": "THKP-C MLSPB",
       "year": "1975",
       "desc": "Kentsel gerilla hattını sürdüren radikal kanat.",
       "period": "12 Mart Sonrası Yeniden Yapılanma",
@@ -449,6 +489,7 @@
     {
       "id": "devrimci-gençlik-dernekleri-federasyonu-dgdf",
       "label": "Devrimci Gençlik Dernekleri Federasyonu (DGDF)",
+      "abbreviation": "DGDF",
       "year": "1976",
       "desc": "Dev-Genç geleneğinin kitlesel dernekleşme süreci.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -460,6 +501,7 @@
     {
       "id": "kurtuluş",
       "label": "Kurtuluş",
+      "abbreviation": "Kurtuluş",
       "year": "1976",
       "desc": "İşçi sınıfı odağını ve 'Kurtuluş' dergisini öne çıkarak hat.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -471,9 +513,10 @@
     {
       "id": "thkp-c-devrimci-savaş",
       "label": "THKP-C Devrimci Savaş",
+      "abbreviation": "THKP-C DS",
       "year": "1976",
       "desc": "Silahlı eylemleri öne çıkaran fraksiyon.",
-      "period": "Kitlesel Mücadele (1974-1980)",
+      "period": "Kitleselleşme (1974-1980)",
       "group": "THKP-C ve Türevleri",
       "crossLink": "Fraksiyon",
       "fullLabel": "THKP-C Devrimci Savaş\n(1976)",
@@ -482,6 +525,7 @@
     {
       "id": "thkp-c-eylem-birliği",
       "label": "THKP-C Eylem Birliği",
+      "abbreviation": "THKP-C EB",
       "year": "1976",
       "desc": "Kentsel eylemsellik odaklı grup.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -493,6 +537,7 @@
     {
       "id": "thkp-c-halkın-devrimci-öncüleri",
       "label": "THKP-C Halkın Devrimci Öncüleri",
+      "abbreviation": "HDÖ",
       "year": "1976",
       "desc": "THKP-C mirasçısı ayrışma grubu.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -504,6 +549,7 @@
     {
       "id": "devrimci-yol-dev-yol",
       "label": "Devrimci Yol (Dev-Yol)",
+      "abbreviation": "DEV-YOL",
       "year": "1977",
       "desc": "Oğuzhan Müftüoğlu vb.; THKP-C kökenli en kitlesel hareket.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -515,6 +561,7 @@
     {
       "id": "tekoşin",
       "label": "Tekoşin",
+      "abbreviation": "Tekoşin",
       "year": "1977",
       "desc": "Kurtuluş hareketinden ayrılan Doğu/Kürdistan odaklı sol grup.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -526,6 +573,7 @@
     {
       "id": "devrimci-sol-dev-sol",
       "label": "Devrimci Sol (Dev-Sol)",
+      "abbreviation": "DEV-SOL",
       "year": "1978",
       "desc": "Dursun Karataş liderliğinde Dev-Yol'dan ayrılan hat.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -537,6 +585,7 @@
     {
       "id": "kasabalılar",
       "label": "Kasabalılar",
+      "abbreviation": "Kasabalılar",
       "year": "1978",
       "desc": "THKP-C kökenli yerel/bölgesel ayrışma grubu.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -548,6 +597,7 @@
     {
       "id": "thkp-c-üçüncü-yol",
       "label": "THKP-C Üçüncü Yol",
+      "abbreviation": "THKP-C ÜÇÜNCÜ YOL",
       "year": "1978",
       "desc": "Dev-Yol ve Dev-Sol dışında kalan bağımsız yayın çevresi.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -559,6 +609,7 @@
     {
       "id": "thkp-c-çayan-sempatizanları",
       "label": "THKP-C Çayan Sempatizanları",
+      "abbreviation": "THKP-C ÇS",
       "year": "1979",
       "desc": "Mahir Çayan çizgisine sadakat vurgusu yapan grup.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -570,6 +621,7 @@
     {
       "id": "thkp-c-cephe-yolu",
       "label": "THKP-C Cephe Yolu",
+      "abbreviation": "THKP-C CY",
       "year": "1979",
       "desc": "THKP-C ilkelerine vurgu yapan yayın organı.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -581,6 +633,7 @@
     {
       "id": "thkp-c-devrimci-koordinasyon-birliği",
       "label": "THKP-C Devrimci Koordinasyon Birliği",
+      "abbreviation": "DKB",
       "year": "1979",
       "desc": "THKP-C kökenli grupların koordinasyon arayışı.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -592,6 +645,7 @@
     {
       "id": "thkp-c-türkiye-kızıl-muhafızları-ordusu",
       "label": "THKP-C Türkiye Kızıl Muhafızlar Ordusu",
+      "abbreviation": "TKMO",
       "year": "1979",
       "desc": "Radikal kır/şehir hücresi denemesi.",
       "period": "Kitlesel Mücadele (1974-1980)",
@@ -603,6 +657,7 @@
     {
       "id": "ana-gerilla-birliği",
       "label": "Ana Gerilla Birliği",
+      "abbreviation": "AGB",
       "year": "1982",
       "desc": "12 Eylül sonrası Dev-Yol gerillalarının dağdaki direniş birliği.",
       "period": "12 Eylül Sonrası (1980-1990)",
@@ -614,6 +669,7 @@
     {
       "id": "türkiye-kuzey-kürdistan-kurtuluş-örgütü-tkkö",
       "label": "Türkiye-Kuzey Kürdistan Kurtuluş Örgütü (TKKÖ)",
+      "abbreviation": "TKKÖ",
       "year": "1983",
       "desc": "Kurtuluş geleneğinin bölgesel örgütlenmesi.",
       "period": "12 Eylül Sonrası (1980-1990)",
@@ -625,6 +681,7 @@
     {
       "id": "thkp-c-devrimci-sol-dursun-karataş",
       "label": "THKP-C Devrimci Sol (Dursun Karataş)",
+      "abbreviation": "Dev-Sol (DK)",
       "year": "1993",
       "desc": "Dev-Sol içindeki Karataş kanadı.",
       "period": "1990'lar ve Ayrışmalar",
@@ -636,6 +693,7 @@
     {
       "id": "thkp-c-devrimci-sol-bedri-yağan",
       "label": "THKP-C Devrimci Sol (Bedri Yağan)",
+      "abbreviation": "Dev-Sol (BY)",
       "year": "1993",
       "desc": "Dev-Sol içindeki Bedri Yağan kanadı.",
       "period": "1990'lar ve Ayrışmalar",
@@ -647,6 +705,7 @@
     {
       "id": "thkp-c-devrimci-sol-yeniden-yapılanma",
       "label": "THKP-C Devrimci Sol (Yeniden Yapılanma)",
+      "abbreviation": "Dev-Sol (YY)",
       "year": "1994",
       "desc": "Dev-Sol içi grupların toparlanma süreçleri.",
       "period": "1990'lar ve Ayrışmalar",
@@ -658,6 +717,7 @@
     {
       "id": "devrimci-halk-kurtuluş-partisi-cephesi-dhkp-c",
       "label": "Devrimci Halk Kurtuluş Partisi-Cephesi (DHKP-C)",
+      "abbreviation": "DHKP-C",
       "year": "1994",
       "desc": "Dursun Karataş önderliğinde Dev-Sol Karataş kanadının partileşmesi.",
       "period": "1990'lar ve Ayrışmalar",
@@ -669,6 +729,7 @@
     {
       "id": "özgürlük-ve-dayanışma-partisi-ödp",
       "label": "Özgürlük ve Dayanışma Partisi (ÖDP)",
+      "abbreviation": "ÖDP",
       "year": "1996",
       "desc": "Dev-Yol, Kurtuluş, BSP ve geniş sol çevrelerin birleşimi.",
       "period": "2000'ler ve Legal Partileşme",
@@ -680,6 +741,7 @@
     {
       "id": "devrimci-hareket",
       "label": "Devrimci Hareket",
+      "abbreviation": "DH",
       "year": "2000",
       "desc": "Dev-Yol kadrolarının dergi etrafındaki örgütlenmesi.",
       "period": "2000'ler ve Legal Partileşme",
@@ -691,6 +753,7 @@
     {
       "id": "sosyalist-demokrasi-partisi-sdp-soldep",
       "label": "Sosyalist Demokrasi Partisi (SDP / SOLDEP)",
+      "abbreviation": "SDP / SOLDEP",
       "year": "2002",
       "desc": "Kurtuluş ve ÖDP ayrışması sonrası kurulan yasal parti geleneği.",
       "period": "2000'ler ve Legal Partileşme",
@@ -702,6 +765,7 @@
     {
       "id": "emekçi-hareketi-partisi-ehp",
       "label": "Emekçi Hareketi Partisi (EHP)",
+      "abbreviation": "EHP",
       "year": "2004",
       "desc": "Kurtuluş geleneğinden gelen kadroların partileşmesi.",
       "period": "2000'ler ve Legal Partileşme",
@@ -713,6 +777,7 @@
     {
       "id": "yeniden-devrim",
       "label": "Yeniden Devrim",
+      "abbreviation": "YD",
       "year": "2006",
       "desc": "Devrimci Yol çizgisinde yayın yapan çevre.",
       "period": "2000'ler ve Legal Partileşme",
@@ -724,6 +789,7 @@
     {
       "id": "sosyalist-yeniden-kuruluş-partisi-sykp",
       "label": "Sosyalist Yeniden Kuruluş Partisi (SYKP)",
+      "abbreviation": "SYKP",
       "year": "2013",
       "desc": "Kurtuluş, TÖP-G, SDP ve SOP bileşenlerinin ortak partileşmesi.",
       "period": "Legal Arayışlar (1990-2016)",
@@ -735,6 +801,7 @@
     {
       "id": "sol-parti",
       "label": "SOL Parti",
+      "abbreviation": "SOL Parti",
       "year": "2019",
       "desc": "ÖDP'nin isim ve yapı değiştirerek SOL Parti olması.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -746,6 +813,7 @@
     {
       "id": "devrimci-hareket---sosyalist-güç-birliği",
       "label": "Devrimci Hareket - Sosyalist Güç Birliği",
+      "abbreviation": "DH-SGB",
       "year": "2021",
       "desc": "Devrimci Hareket'in SOL Parti ve TKP ile ittifakı.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -757,6 +825,7 @@
     {
       "id": "ehp-ve-emek-ve-özgürlük-i̇ttifakı",
       "label": "EHP ve Emek ve Özgürlük İttifakı",
+      "abbreviation": "EHP-EÖİ",
       "year": "2022",
       "desc": "EHP'nin TİP, EMEP ve DEM Parti ile ittifak kurması.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -768,6 +837,7 @@
     {
       "id": "güncel-sol-parti-ehp-çizgisi",
       "label": "Güncel SOL Parti ve EHP Çizgisi",
+      "abbreviation": "GÜNCEL SOL-EHP",
       "year": "2024-2026",
       "desc": "THKP-C kökenli yasal partilerin güncel faaliyetleri.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -779,6 +849,7 @@
     {
       "id": "türkiye-halk-kurtuluş-ordusu-thko",
       "label": "Türkiye Halk Kurtuluş Ordusu (THKO)",
+      "abbreviation": "THKO",
       "year": "1970",
       "desc": "Deniz Gezmiş, Hüseyin İnan, Yusuf Aslan tarafından kuruldu.",
       "period": "Silahlı Mücadele (1970-1972)",
@@ -791,6 +862,7 @@
     {
       "id": "thko-geçici-merkez-komitesi-gmk",
       "label": "THKO Geçici Merkez Komitesi (GMK)",
+      "abbreviation": "THKO-GMK",
       "year": "1974",
       "desc": "Cezaevinden çıkan kadroların THKO'yu yeniden yapılandırması.",
       "period": "12 Mart Sonrası Toparlanma",
@@ -802,6 +874,7 @@
     {
       "id": "thko-mücadelede-birlik-emeğin-birliği",
       "label": "THKO Mücadelede Birlik (Emeğin Birliği)",
+      "abbreviation": "THKO-EB",
       "year": "1975",
       "desc": "THKO içinde Çin/Arnavutluk çizgisine yönelen kanat.",
       "period": "Ideolojik Dönüşüm (1975-1980)",
@@ -813,6 +886,7 @@
     {
       "id": "halkın-kurtuluşu",
       "label": "Halkın Kurtuluşu",
+      "abbreviation": "HK",
       "year": "1976",
       "desc": "THKO'nun kitlesel yasal yayın organı ve harekete verilen genel isim.",
       "period": "Ideolojik Dönüşüm (1975-1980)",
@@ -824,6 +898,7 @@
     {
       "id": "türkiye-devriminin-yolu-tdy",
       "label": "Türkiye Devriminin Yolu (TDY)",
+      "abbreviation": "TDY",
       "year": "1976",
       "desc": "THKO GMK'dan ayrılan askeri hat yanlısı grup.",
       "period": "Ideolojik Dönüşüm (1975-1980)",
@@ -835,6 +910,7 @@
     {
       "id": "thko---diriliş",
       "label": "THKO - Diriliş",
+      "abbreviation": "THKO-Diriliş",
       "year": "1977",
       "desc": "THKO'nun ilk dönem gerilla çizgisini ihya etmek isteyen grup.",
       "period": "Ideolojik Dönüşüm (1975-1980)",
@@ -846,6 +922,7 @@
     {
       "id": "thko---emeğin-kurtuluşu-yolunda-işık",
       "label": "THKO - Emeğin Kurtuluşu Yolunda Işık",
+      "abbreviation": "THKO-EKYI",
       "year": "1977",
       "desc": "THKO içi yayın ve örgütlenme çevresi.",
       "period": "Ideolojik Dönüşüm (1975-1980)",
@@ -857,6 +934,7 @@
     {
       "id": "thko---devrimci-proletarya",
       "label": "THKO - Devrimci Proletarya",
+      "abbreviation": "THKO-DP",
       "year": "1977",
       "desc": "Sonrasında TİKB adını alacak radikal kopuş.",
       "period": "Ideolojik Dönüşüm (1975-1980)",
@@ -868,6 +946,7 @@
     {
       "id": "tdkp---i̇nşa-örgütü",
       "label": "TDKP - İnşa Örgütü",
+      "abbreviation": "TDKP-İÖ",
       "year": "1978",
       "desc": "Halkın Kurtuluşu'nun parti kurma sürecindeki yapısı.",
       "period": "Partileşme Süreci",
@@ -879,6 +958,7 @@
     {
       "id": "türkiye-devrimci-komünist-partisi-tdkp",
       "label": "Türkiye Devrimci Komünist Partisi (TDKP)",
+      "abbreviation": "TDKP",
       "year": "1980",
       "desc": "Halkın Kurtuluşu geleneğinin yasa dışı partisi.",
       "period": "Partileşme Süreci",
@@ -890,6 +970,7 @@
     {
       "id": "türkiye-komünist-emek-partisi-tkep",
       "label": "Türkiye Komünist Emek Partisi (TKEP)",
+      "abbreviation": "TKEP",
       "year": "1980",
       "desc": "Teslim Töre önderliğinde THKO/Emeğin Birliği kökenli parti.",
       "period": "Partileşme Süreci",
@@ -901,6 +982,7 @@
     {
       "id": "türkiye-i̇htilalci-komünistler-birliği-ti̇kb",
       "label": "Türkiye İhtilalci Komünistler Birliği (TİKB)",
+      "abbreviation": "TİKB",
       "year": "1980",
       "desc": "THKO kökenli, askeri/ihtilalci hatta bağlı kalan grup.",
       "period": "Partileşme Süreci",
@@ -912,6 +994,7 @@
     {
       "id": "tdkp---sosyalist-birlik",
       "label": "TDKP - Sosyalist Birlik",
+      "abbreviation": "TDKP-SB",
       "year": "1987",
       "desc": "TDKP'den ayrılan muhalif grup.",
       "period": "12 Eylül Sonrası ve 90'lar",
@@ -923,6 +1006,7 @@
     {
       "id": "ekim",
       "label": "Ekim",
+      "abbreviation": "Ekim",
       "year": "1988",
       "desc": "TDKP'den ayrılan ve daha sonra TKİP adını alan çevre.",
       "period": "12 Eylül Sonrası ve 90'lar",
@@ -934,6 +1018,7 @@
     {
       "id": "türkiye-devrimci-komünist-i̇şçi-hareketi-tdki̇h",
       "label": "Türkiye Devrimci Komünist İşçi Hareketi (TDKİH)",
+      "abbreviation": "TDKİH",
       "year": "1989",
       "desc": "TDKP kökenli ayrışma.",
       "period": "12 Eylül Sonrası ve 90'lar",
@@ -945,6 +1030,7 @@
     {
       "id": "tkep---leninist",
       "label": "TKEP - Leninist",
+      "abbreviation": "TKEP-L",
       "year": "1990",
       "desc": "TKEP içindeki silahlı/ihtilalci kanadın ayrılması.",
       "period": "12 Eylül Sonrası ve 90'lar",
@@ -956,6 +1042,7 @@
     {
       "id": "marksist-leninist-komünist-parti-mlkp",
       "label": "Marksist Leninist Komünist Parti (MLKP)",
+      "abbreviation": "MLKP",
       "year": "1994",
       "desc": "TKEP-Leninist, TKP-ML Hareketi ve İKOP birleşimi.",
       "period": "Legal Parti Dönemi",
@@ -967,6 +1054,7 @@
     {
       "id": "emek-partisi-emep",
       "label": "Emek Partisi (EMEP)",
+      "abbreviation": "EMEP",
       "year": "1996",
       "desc": "TDKP geleneğinin kurduğu ilk yasal parti.",
       "period": "Legal Parti Dönemi",
@@ -978,6 +1066,7 @@
     {
       "id": "emeğin-partisi-emep",
       "label": "Emeğin Partisi (EMEP)",
+      "abbreviation": "EMEP",
       "year": "1997",
       "desc": "Kapatılan Emek Partisi yerine kurulan yasal parti.",
       "period": "Legal Parti Dönemi",
@@ -989,6 +1078,7 @@
     {
       "id": "türkiye-komünist-i̇htilalciler-birliği-tki̇b",
       "label": "Türkiye Komünist İhtilalciler Birliği (TKİB)",
+      "abbreviation": "TKİB / TKİP",
       "year": "1998",
       "desc": "TİKB kökenli yapıların yeniden yapılanması.",
       "period": "Legal Parti Dönemi",
@@ -1000,6 +1090,7 @@
     {
       "id": "devrimci-halk-hareketi",
       "label": "Devrimci Halk Hareketi",
+      "abbreviation": "DHH",
       "year": "1999",
       "desc": "TKİB'den ayrılan çevre.",
       "period": "Legal Parti Dönemi",
@@ -1011,6 +1102,7 @@
     {
       "id": "tki̇b---bolşevik",
       "label": "TKİB - Bolşevik",
+      "abbreviation": "TKİB-B",
       "year": "1999",
       "desc": "TKİB içindeki ideolojik ayrışma.",
       "period": "Legal Parti Dönemi",
@@ -1022,6 +1114,7 @@
     {
       "id": "emep-ve-emek-ve-özgürlük-i̇ttifakı",
       "label": "EMEP ve Emek ve Özgürlük İttifakı",
+      "abbreviation": "EMEP-EÖİ",
       "year": "2022",
       "desc": "EMEP'in TİP, HDP/DEM Parti ve EHP ile ittifak kurması.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -1033,6 +1126,7 @@
     {
       "id": "emepin-tbmm-mebusluğu-ve-seçim-süreci",
       "label": "EMEP'in TBMM Mebusluğu ve Seçim Süreci",
+      "abbreviation": "EMEP-TBMM",
       "year": "2023",
       "desc": "EMEP'in TBMM'ye 2 milletvekili sokması.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -1044,6 +1138,7 @@
     {
       "id": "güncel-emep,-tki̇p-ve-ti̇kb-durumu",
       "label": "Güncel EMEP, TKİP ve TİKB Durumu",
+      "abbreviation": "GÜNCEL EMEP-TKİP-TİKB",
       "year": "2024-2026",
       "desc": "TDKP/EMEP geleneğinin güncel mücadelesi.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -1055,6 +1150,7 @@
     {
       "id": "proleter-devrimci-aydınlık-pda",
       "label": "Proleter Devrimci Aydınlık (PDA)",
+      "abbreviation": "PDA",
       "year": "1970",
       "desc": "Doğu Perinçek ve Şahin Alpay çevresi (Aydınlık dergisi).",
       "period": "Erken Dönem",
@@ -1067,6 +1163,7 @@
     {
       "id": "türkiye-i̇htilalci-i̇şçi-ve-köylü-partisi-ti̇i̇kp",
       "label": "Türkiye İhtilalci İşçi ve Köylü Partisi (TİİKP)",
+      "abbreviation": "TİİKP",
       "year": "1971",
       "desc": "Maoist çizgedeki yasa dışı ilk parti.",
       "period": "Erken Dönem",
@@ -1078,6 +1175,7 @@
     {
       "id": "türkiye-komünist-partisi---marksist-leninist-tkp-ml",
       "label": "Türkiye Komünist Partisi / Marksist Leninist (TKP-ML)",
+      "abbreviation": "TKP-ML",
       "year": "1972",
       "desc": "İbrahim Kaypakkaya'nın TİİKP'den ayrılıp Halk Savaşı stratejisiyle kurduğu parti.",
       "period": "Kurulus ve Silahlı Mücadele",
@@ -1090,6 +1188,7 @@
     {
       "id": "halkın-birliği-tkp-ml-hareketi",
       "label": "Halkın Birliği (TKP-ML Hareketi)",
+      "abbreviation": "TKP-ML Hareketi",
       "year": "1976",
       "desc": "TKP-ML Hareketi adını alacak yasal yayın organı ve çevre.",
       "period": "12 Mart Sonrası Yeniden Yapılanma",
@@ -1101,6 +1200,7 @@
     {
       "id": "tkp-ml-1.-konferansı",
       "label": "TKP-ML 1. Konferansı",
+      "abbreviation": "TKP-ML 1.K",
       "year": "1978",
       "desc": "Kaypakkaya sonrası merkezi yapının yeniden sağlanması.",
       "period": "12 Mart Sonrası Yeniden Yapılanma",
@@ -1112,6 +1212,7 @@
     {
       "id": "tkp-ml-2.-konferansı",
       "label": "TKP-ML 2. Konferansı",
+      "abbreviation": "TKP-ML 2.K",
       "year": "1981",
       "desc": "Örgütün 2. Konferans süreci.",
       "period": "12 Eylül Sonrası ve Bölünmeler",
@@ -1123,6 +1224,7 @@
     {
       "id": "tkp-ml-bolşevik-partizan",
       "label": "TKP-ML Bolşevik Partizan",
+      "abbreviation": "TKP-ML BP",
       "year": "1981",
       "desc": "TKP-ML'den ayrılan ideolojik fraksiyon.",
       "period": "12 Eylül Sonrası ve Bölünmeler",
@@ -1134,6 +1236,7 @@
     {
       "id": "spartaküs",
       "label": "Spartaküs",
+      "abbreviation": "Spartaküs",
       "year": "1983",
       "desc": "Bolşevik Partizan'dan ayrılan grup.",
       "period": "12 Eylül Sonrası ve Bölünmeler",
@@ -1145,6 +1248,7 @@
     {
       "id": "mücadele-bayrağı",
       "label": "Mücadele Bayrağı",
+      "abbreviation": "MB",
       "year": "1987",
       "desc": "Bolşevik Partizan geleneğinden kopan dergi çevresi.",
       "period": "12 Eylül Sonrası ve Bölünmeler",
@@ -1156,6 +1260,7 @@
     {
       "id": "tkp-ml-maoist-parti-merkezi-mpm",
       "label": "TKP-ML Maoist Parti Merkezi (MPM)",
+      "abbreviation": "TKP-ML MPM",
       "year": "1987",
       "desc": "Akademisyenler/Aydınlar kanadının ayrışması.",
       "period": "12 Eylül Sonrası ve Bölünmeler",
@@ -1167,6 +1272,7 @@
     {
       "id": "tkp-ml-i̇kiye-bölündü:-dabk-ve-konferansçılar",
       "label": "TKP-ML İkiye Bölündü: DABK ve Konferansçılar",
+      "abbreviation": "DABK / KONFERANSÇILAR",
       "year": "1987",
       "desc": "DABK ile Genel Merkez ayrışması.",
       "period": "12 Eylül Sonrası ve Bölünmeler",
@@ -1178,6 +1284,7 @@
     {
       "id": "tkp-ml-birleşmesi-dabk-ve-konferans",
       "label": "TKP-ML Birleşmesi (DABK ve Konferans)",
+      "abbreviation": "DABK-KONFERANS BİRLEŞMESİ",
       "year": "1992",
       "desc": "İki kanadın yeniden birleşme süreci.",
       "period": "1990'lar ve Yeni Yapılanmalar",
@@ -1189,6 +1296,7 @@
     {
       "id": "tkp-ml-yeniden-bölündü-tkpml-ve-tkp-ml",
       "label": "TKP-ML Yeniden Bölündü (TKP(ML) ve TKP-ML)",
+      "abbreviation": "TKP(ML) / TKP-ML",
       "year": "1994",
       "desc": "Yeniden iki ana fraksiyona ayrışma.",
       "period": "1990'lar ve Yeni Yapılanmalar",
@@ -1200,6 +1308,7 @@
     {
       "id": "bolşevik-partizan-->-bolşevik-parti-kk-t",
       "label": "Bolşevik Partizan -> Bolşevik Parti (KK-T)",
+      "abbreviation": "BP (KK-T)",
       "year": "1994",
       "desc": "Bolşevik Partizan'ın partileşmesi.",
       "period": "1990'lar ve Yeni Yapılanmalar",
@@ -1211,6 +1320,7 @@
     {
       "id": "tkp-ml-geçici-örgütlenme-komitesi-gök",
       "label": "TKP-ML Geçici Örgütlenme Komitesi (GÖK)",
+      "abbreviation": "TKP-ML GÖK",
       "year": "1995",
       "desc": "Ayrılan bir diğer iç grup.",
       "period": "1990'lar ve Yeni Yapılanmalar",
@@ -1222,6 +1332,7 @@
     {
       "id": "maoist-komünist-parti-mkp",
       "label": "Maoist Komünist Partisi (MKP)",
+      "abbreviation": "MKP",
       "year": "2002",
       "desc": "TKP(ML) kanadının adını Maoist Komünist Partisi yapması.",
       "period": "2000'ler",
@@ -1233,6 +1344,7 @@
     {
       "id": "mkp-17-merkez-kadrosunun-kaybı",
       "label": "MKP 17 Merkez Kadrosunun Kaybı",
+      "abbreviation": "MKP-17",
       "year": "2005",
       "desc": "Ovacık/Kandil bölgesinde kayıplar.",
       "period": "2000'ler",
@@ -1244,6 +1356,7 @@
     {
       "id": "tkp-ml,-mkp,-bolşevik-parti-faal-durumu",
       "label": "TKP-ML, MKP, Bolşevik Parti Faal Durumu",
+      "abbreviation": "TKP-ML/MKP/BP",
       "year": "2010",
       "desc": "Fraksiyonların güncel durum özeti.",
       "period": "2010'lar",
@@ -1255,6 +1368,7 @@
     {
       "id": "tkp-ml-i̇çi-çatışma-ve-bölünme",
       "label": "TKP-ML İçi Çatışma ve Bölünme",
+      "abbreviation": "TKP-ML BÖLÜNME",
       "year": "2017",
       "desc": "MK ile Örgütlenme Komitesi arasındaki çatışmalı bölünme.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -1266,6 +1380,7 @@
     {
       "id": "sosyalist-meclisler-federasyonu-smf",
       "label": "Sosyalist Meclisler Federasyonu (SMF)",
+      "abbreviation": "SMF",
       "year": "2018",
       "desc": "MKP geleneğinin yasal kitlesel örgütü olarak kurulması.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -1277,6 +1392,7 @@
     {
       "id": "fatih-maçoğlu-ve-dersim-belediyesi",
       "label": "Fatih Maçoğlu ve Dersim Belediyesi",
+      "abbreviation": "SMF-TKP DERSİM",
       "year": "2019",
       "desc": "SMF'nin TKP çatısıyla yerel seçimi kazanması.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -1288,6 +1404,7 @@
     {
       "id": "smf-ve-emek-ve-özgürlük-i̇ttifakı",
       "label": "SMF ve Emek ve Özgürlük İttifakı",
+      "abbreviation": "SMF-EÖİ",
       "year": "2022",
       "desc": "SMF'nin sol/sosyalist ittifak bloğuna katılımı.",
       "period": "Güncel Dönem (2017-Günümüz)",
@@ -1299,6 +1416,7 @@
     {
       "id": "güncel-tkp-ml,-mkp,-smf-ve-partizan-çizgisi",
       "label": "Güncel TKP-ML, MKP, SMF ve Partizan Çizgisi",
+      "abbreviation": "GÜNCEL TKP-ML-MKP-SMF",
       "year": "2024-2026",
       "desc": "Maoist kökenli hareketlerin güncel durumu.",
       "period": "Güncel Dönem (2017-Günümüz)",
